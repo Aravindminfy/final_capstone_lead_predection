@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/Minfy.DESKTOP-3E50D5N/Desktop/final_capstone/mlruns/625865139401093492/04bb3520899c42cf839751680251c37a/artifacts
+end_time: 1752771798795
+entry_point_name: ''
+experiment_id: '625865139401093492'
+lifecycle_stage: active
+run_id: 04bb3520899c42cf839751680251c37a
+run_name: Logistic Regression_223246
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752771766389
+status: 3
+tags: []
+user_id: Minfy

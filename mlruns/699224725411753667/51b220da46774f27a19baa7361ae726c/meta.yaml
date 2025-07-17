@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/699224725411753667/51b220da46774f27a19baa7361ae726c/artifacts
+end_time: 1752772560355
+entry_point_name: ''
+experiment_id: '699224725411753667'
+lifecycle_stage: active
+run_id: 51b220da46774f27a19baa7361ae726c
+run_name: adorable-mouse-489
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752772461029
+status: 3
+tags: []
+user_id: Minfy

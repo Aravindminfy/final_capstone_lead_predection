@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/699224725411753667/074777565524474bb593175bb70beebb/artifacts
+end_time: 1752772630340
+entry_point_name: ''
+experiment_id: '699224725411753667'
+lifecycle_stage: active
+run_id: 074777565524474bb593175bb70beebb
+run_name: adaptable-kite-927
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752772629643
+status: 3
+tags: []
+user_id: Minfy

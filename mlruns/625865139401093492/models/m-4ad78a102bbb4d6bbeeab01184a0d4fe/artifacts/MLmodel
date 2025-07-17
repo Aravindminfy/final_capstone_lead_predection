@@ -1,0 +1,195 @@
+artifact_path: file:///c:/Users/Minfy.DESKTOP-3E50D5N/Desktop/final_capstone/mlruns/625865139401093492/models/m-4ad78a102bbb4d6bbeeab01184a0d4fe/artifacts
+flavors:
+  lightgbm:
+    code: null
+    data: model.pkl
+    lgb_version: 4.6.0
+    model_class: lightgbm.sklearn.LGBMClassifier
+  python_function:
+    data: model.pkl
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.lightgbm
+    python_version: 3.13.3
+is_signature_from_type_hint: false
+mlflow_version: 3.1.1
+model_id: m-4ad78a102bbb4d6bbeeab01184a0d4fe
+model_size_bytes: 322194
+model_uuid: m-4ad78a102bbb4d6bbeeab01184a0d4fe
+prompts: null
+run_id: a509b900652f42b98875f1a088bb1462
+signature:
+  inputs: '[{"type": "double", "name": "TotalVisits", "required": true}, {"type":
+    "double", "name": "Total Time Spent on Website", "required": true}, {"type": "double",
+    "name": "Page Views Per Visit", "required": true}, {"type": "double", "name":
+    "Asymmetrique Activity Score", "required": true}, {"type": "double", "name": "Asymmetrique
+    Profile Score", "required": true}, {"type": "double", "name": "Tags_Busy", "required":
+    true}, {"type": "double", "name": "Tags_Closed by Horizzon", "required": true},
+    {"type": "double", "name": "Tags_Diploma holder (Not Eligible)", "required": true},
+    {"type": "double", "name": "Tags_Graduation in progress", "required": true}, {"type":
+    "double", "name": "Tags_In confusion whether part time or DLP", "required": true},
+    {"type": "double", "name": "Tags_Interested  in full time MBA", "required": true},
+    {"type": "double", "name": "Tags_Interested in Next batch", "required": true},
+    {"type": "double", "name": "Tags_Interested in other courses", "required": true},
+    {"type": "double", "name": "Tags_Lateral student", "required": true}, {"type":
+    "double", "name": "Tags_Lost to EINS", "required": true}, {"type": "double", "name":
+    "Tags_Lost to Others", "required": true}, {"type": "double", "name": "Tags_Not
+    doing further education", "required": true}, {"type": "double", "name": "Tags_Recognition
+    issue (DEC approval)", "required": true}, {"type": "double", "name": "Tags_Ringing",
+    "required": true}, {"type": "double", "name": "Tags_Shall take in the next coming
+    month", "required": true}, {"type": "double", "name": "Tags_Still Thinking", "required":
+    true}, {"type": "double", "name": "Tags_University not recognized", "required":
+    true}, {"type": "double", "name": "Tags_Want to take admission but has financial
+    problems", "required": true}, {"type": "double", "name": "Tags_Will revert after
+    reading the email", "required": true}, {"type": "double", "name": "Tags_in touch
+    with EINS", "required": true}, {"type": "double", "name": "Tags_invalid number",
+    "required": true}, {"type": "double", "name": "Tags_number not provided", "required":
+    true}, {"type": "double", "name": "Tags_opp hangup", "required": true}, {"type":
+    "double", "name": "Tags_switched off", "required": true}, {"type": "double", "name":
+    "Tags_wrong number given", "required": true}, {"type": "double", "name": "Lead
+    Quality_Low in Relevance", "required": true}, {"type": "double", "name": "Lead
+    Quality_Might be", "required": true}, {"type": "double", "name": "Lead Quality_Not
+    Sure", "required": true}, {"type": "double", "name": "Lead Quality_Worst", "required":
+    true}, {"type": "double", "name": "Lead Profile_Lateral Student", "required":
+    true}, {"type": "double", "name": "Lead Profile_Other Leads", "required": true},
+    {"type": "double", "name": "Lead Profile_Potential Lead", "required": true}, {"type":
+    "double", "name": "Lead Profile_Select", "required": true}, {"type": "double",
+    "name": "Lead Profile_Student of SomeSchool", "required": true}, {"type": "double",
+    "name": "What is your current occupation_Housewife", "required": true}, {"type":
+    "double", "name": "What is your current occupation_Other", "required": true},
+    {"type": "double", "name": "What is your current occupation_Student", "required":
+    true}, {"type": "double", "name": "What is your current occupation_Unemployed",
+    "required": true}, {"type": "double", "name": "What is your current occupation_Working
+    Professional", "required": true}, {"type": "double", "name": "Last Activity_Converted
+    to Lead", "required": true}, {"type": "double", "name": "Last Activity_Email Bounced",
+    "required": true}, {"type": "double", "name": "Last Activity_Email Link Clicked",
+    "required": true}, {"type": "double", "name": "Last Activity_Email Marked Spam",
+    "required": true}, {"type": "double", "name": "Last Activity_Email Opened", "required":
+    true}, {"type": "double", "name": "Last Activity_Email Received", "required":
+    true}, {"type": "double", "name": "Last Activity_Form Submitted on Website", "required":
+    true}, {"type": "double", "name": "Last Activity_Had a Phone Conversation", "required":
+    true}, {"type": "double", "name": "Last Activity_Olark Chat Conversation", "required":
+    true}, {"type": "double", "name": "Last Activity_Page Visited on Website", "required":
+    true}, {"type": "double", "name": "Last Activity_Resubscribed to emails", "required":
+    true}, {"type": "double", "name": "Last Activity_SMS Sent", "required": true},
+    {"type": "double", "name": "Last Activity_Unreachable", "required": true}, {"type":
+    "double", "name": "Last Activity_Unsubscribed", "required": true}, {"type": "double",
+    "name": "Last Activity_View in browser link Clicked", "required": true}, {"type":
+    "double", "name": "Last Activity_Visited Booth in Tradeshow", "required": true},
+    {"type": "double", "name": "Last Notable Activity_Email Bounced", "required":
+    true}, {"type": "double", "name": "Last Notable Activity_Email Link Clicked",
+    "required": true}, {"type": "double", "name": "Last Notable Activity_Email Marked
+    Spam", "required": true}, {"type": "double", "name": "Last Notable Activity_Email
+    Opened", "required": true}, {"type": "double", "name": "Last Notable Activity_Email
+    Received", "required": true}, {"type": "double", "name": "Last Notable Activity_Form
+    Submitted on Website", "required": true}, {"type": "double", "name": "Last Notable
+    Activity_Had a Phone Conversation", "required": true}, {"type": "double", "name":
+    "Last Notable Activity_Modified", "required": true}, {"type": "double", "name":
+    "Last Notable Activity_Olark Chat Conversation", "required": true}, {"type": "double",
+    "name": "Last Notable Activity_Page Visited on Website", "required": true}, {"type":
+    "double", "name": "Last Notable Activity_Resubscribed to emails", "required":
+    true}, {"type": "double", "name": "Last Notable Activity_SMS Sent", "required":
+    true}, {"type": "double", "name": "Last Notable Activity_Unreachable", "required":
+    true}, {"type": "double", "name": "Last Notable Activity_Unsubscribed", "required":
+    true}, {"type": "double", "name": "Last Notable Activity_View in browser link
+    Clicked", "required": true}, {"type": "double", "name": "Lead Source_Direct Traffic",
+    "required": true}, {"type": "double", "name": "Lead Source_Facebook", "required":
+    true}, {"type": "double", "name": "Lead Source_Google", "required": true}, {"type":
+    "double", "name": "Lead Source_Live Chat", "required": true}, {"type": "double",
+    "name": "Lead Source_NC_EDM", "required": true}, {"type": "double", "name": "Lead
+    Source_Olark Chat", "required": true}, {"type": "double", "name": "Lead Source_Organic
+    Search", "required": true}, {"type": "double", "name": "Lead Source_Pay per Click
+    Ads", "required": true}, {"type": "double", "name": "Lead Source_Press_Release",
+    "required": true}, {"type": "double", "name": "Lead Source_Reference", "required":
+    true}, {"type": "double", "name": "Lead Source_Referral Sites", "required": true},
+    {"type": "double", "name": "Lead Source_Social Media", "required": true}, {"type":
+    "double", "name": "Lead Source_WeLearn", "required": true}, {"type": "double",
+    "name": "Lead Source_Welingak Website", "required": true}, {"type": "double",
+    "name": "Lead Source_bing", "required": true}, {"type": "double", "name": "Lead
+    Source_blog", "required": true}, {"type": "double", "name": "Lead Source_google",
+    "required": true}, {"type": "double", "name": "Lead Source_testone", "required":
+    true}, {"type": "double", "name": "Lead Source_welearnblog_Home", "required":
+    true}, {"type": "double", "name": "Lead Source_youtubechannel", "required": true},
+    {"type": "double", "name": "Lead Origin_Landing Page Submission", "required":
+    true}, {"type": "double", "name": "Lead Origin_Lead Add Form", "required": true},
+    {"type": "double", "name": "Lead Origin_Lead Import", "required": true}, {"type":
+    "double", "name": "Lead Origin_Quick Add Form", "required": true}, {"type": "double",
+    "name": "Specialization_Business Administration", "required": true}, {"type":
+    "double", "name": "Specialization_E-Business", "required": true}, {"type": "double",
+    "name": "Specialization_E-COMMERCE", "required": true}, {"type": "double", "name":
+    "Specialization_Finance Management", "required": true}, {"type": "double", "name":
+    "Specialization_Healthcare Management", "required": true}, {"type": "double",
+    "name": "Specialization_Hospitality Management", "required": true}, {"type": "double",
+    "name": "Specialization_Human Resource Management", "required": true}, {"type":
+    "double", "name": "Specialization_IT Projects Management", "required": true},
+    {"type": "double", "name": "Specialization_International Business", "required":
+    true}, {"type": "double", "name": "Specialization_Marketing Management", "required":
+    true}, {"type": "double", "name": "Specialization_Media and Advertising", "required":
+    true}, {"type": "double", "name": "Specialization_Operations Management", "required":
+    true}, {"type": "double", "name": "Specialization_Retail Management", "required":
+    true}, {"type": "double", "name": "Specialization_Rural and Agribusiness", "required":
+    true}, {"type": "double", "name": "Specialization_Select", "required": true},
+    {"type": "double", "name": "Specialization_Services Excellence", "required": true},
+    {"type": "double", "name": "Specialization_Supply Chain Management", "required":
+    true}, {"type": "double", "name": "Specialization_Travel and Tourism", "required":
+    true}, {"type": "double", "name": "Specialization_Unknown", "required": true},
+    {"type": "double", "name": "City_Other Cities", "required": true}, {"type": "double",
+    "name": "City_Other Cities of Maharashtra", "required": true}, {"type": "double",
+    "name": "City_Other Metro Cities", "required": true}, {"type": "double", "name":
+    "City_Select", "required": true}, {"type": "double", "name": "City_Thane & Outskirts",
+    "required": true}, {"type": "double", "name": "City_Tier II Cities", "required":
+    true}, {"type": "double", "name": "City_Unknown", "required": true}, {"type":
+    "double", "name": "How did you hear about X Education_Email", "required": true},
+    {"type": "double", "name": "How did you hear about X Education_Multiple Sources",
+    "required": true}, {"type": "double", "name": "How did you hear about X Education_Online
+    Search", "required": true}, {"type": "double", "name": "How did you hear about
+    X Education_Other", "required": true}, {"type": "double", "name": "How did you
+    hear about X Education_SMS", "required": true}, {"type": "double", "name": "How
+    did you hear about X Education_Select", "required": true}, {"type": "double",
+    "name": "How did you hear about X Education_Social Media", "required": true},
+    {"type": "double", "name": "How did you hear about X Education_Student of SomeSchool",
+    "required": true}, {"type": "double", "name": "How did you hear about X Education_Unknown",
+    "required": true}, {"type": "double", "name": "How did you hear about X Education_Word
+    Of Mouth", "required": true}, {"type": "double", "name": "What matters most to
+    you in choosing a course_Flexibility & Convenience", "required": true}, {"type":
+    "double", "name": "What matters most to you in choosing a course_Other", "required":
+    true}, {"type": "double", "name": "What matters most to you in choosing a course_Unknown",
+    "required": true}, {"type": "double", "name": "Country_Australia", "required":
+    true}, {"type": "double", "name": "Country_Bahrain", "required": true}, {"type":
+    "double", "name": "Country_Bangladesh", "required": true}, {"type": "double",
+    "name": "Country_Belgium", "required": true}, {"type": "double", "name": "Country_Canada",
+    "required": true}, {"type": "double", "name": "Country_China", "required": true},
+    {"type": "double", "name": "Country_Denmark", "required": true}, {"type": "double",
+    "name": "Country_France", "required": true}, {"type": "double", "name": "Country_Germany",
+    "required": true}, {"type": "double", "name": "Country_Ghana", "required": true},
+    {"type": "double", "name": "Country_Hong Kong", "required": true}, {"type": "double",
+    "name": "Country_India", "required": true}, {"type": "double", "name": "Country_Indonesia",
+    "required": true}, {"type": "double", "name": "Country_Italy", "required": true},
+    {"type": "double", "name": "Country_Kenya", "required": true}, {"type": "double",
+    "name": "Country_Kuwait", "required": true}, {"type": "double", "name": "Country_Liberia",
+    "required": true}, {"type": "double", "name": "Country_Malaysia", "required":
+    true}, {"type": "double", "name": "Country_Netherlands", "required": true}, {"type":
+    "double", "name": "Country_Nigeria", "required": true}, {"type": "double", "name":
+    "Country_Oman", "required": true}, {"type": "double", "name": "Country_Philippines",
+    "required": true}, {"type": "double", "name": "Country_Qatar", "required": true},
+    {"type": "double", "name": "Country_Russia", "required": true}, {"type": "double",
+    "name": "Country_Saudi Arabia", "required": true}, {"type": "double", "name":
+    "Country_Singapore", "required": true}, {"type": "double", "name": "Country_South
+    Africa", "required": true}, {"type": "double", "name": "Country_Sri Lanka", "required":
+    true}, {"type": "double", "name": "Country_Sweden", "required": true}, {"type":
+    "double", "name": "Country_Switzerland", "required": true}, {"type": "double",
+    "name": "Country_Tanzania", "required": true}, {"type": "double", "name": "Country_Uganda",
+    "required": true}, {"type": "double", "name": "Country_United Arab Emirates",
+    "required": true}, {"type": "double", "name": "Country_United Kingdom", "required":
+    true}, {"type": "double", "name": "Country_United States", "required": true},
+    {"type": "double", "name": "Country_Unknown", "required": true}, {"type": "double",
+    "name": "Country_Vietnam", "required": true}, {"type": "double", "name": "Country_unknown",
+    "required": true}, {"type": "long", "name": "Do Not Email_encoded", "required":
+    true}, {"type": "long", "name": "Do Not Call_encoded", "required": true}, {"type":
+    "long", "name": "A free copy of Mastering The Interview_encoded", "required":
+    true}]'
+  outputs: '[{"type": "long", "name": "Converted", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-07-17 17:01:28.591866'

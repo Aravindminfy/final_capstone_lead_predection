@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/Minfy.DESKTOP-3E50D5N/Desktop/final_capstone/mlruns/625865139401093492/84ba564df8174e768be58bb65a320f99/artifacts
+end_time: 1752771722170
+entry_point_name: ''
+experiment_id: '625865139401093492'
+lifecycle_stage: active
+run_id: 84ba564df8174e768be58bb65a320f99
+run_name: XGBoost_223133
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752771693146
+status: 3
+tags: []
+user_id: Minfy

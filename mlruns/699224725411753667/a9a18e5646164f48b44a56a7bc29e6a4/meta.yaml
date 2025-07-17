@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/699224725411753667/a9a18e5646164f48b44a56a7bc29e6a4/artifacts
+end_time: 1752772643852
+entry_point_name: ''
+experiment_id: '699224725411753667'
+lifecycle_stage: active
+run_id: a9a18e5646164f48b44a56a7bc29e6a4
+run_name: XGBoost_Register
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752772630365
+status: 3
+tags: []
+user_id: Minfy

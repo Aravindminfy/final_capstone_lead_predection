@@ -1,0 +1,10 @@
+artifact_location: file:///c:/Users/Minfy.DESKTOP-3E50D5N/Desktop/final_capstone/mlruns/625865139401093492/models/m-82d78d446c2c4925996cc6f69be7b9ad/artifacts
+creation_timestamp: 1752771795576
+experiment_id: '625865139401093492'
+last_updated_timestamp: 1752771798782
+model_id: m-82d78d446c2c4925996cc6f69be7b9ad
+model_type: null
+name: logistic_regression_model
+source_run_id: 04bb3520899c42cf839751680251c37a
+status: 2
+status_message: null

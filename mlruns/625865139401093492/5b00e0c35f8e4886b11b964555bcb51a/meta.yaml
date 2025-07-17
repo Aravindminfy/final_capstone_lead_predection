@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/Minfy.DESKTOP-3E50D5N/Desktop/final_capstone/mlruns/625865139401093492/5b00e0c35f8e4886b11b964555bcb51a/artifacts
+end_time: 1752771766385
+entry_point_name: ''
+experiment_id: '625865139401093492'
+lifecycle_stage: active
+run_id: 5b00e0c35f8e4886b11b964555bcb51a
+run_name: CatBoost_223202
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752771722174
+status: 3
+tags: []
+user_id: Minfy

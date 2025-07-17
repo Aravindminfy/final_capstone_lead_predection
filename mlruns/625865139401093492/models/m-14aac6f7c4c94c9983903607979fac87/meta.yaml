@@ -1,0 +1,10 @@
+artifact_location: file:///c:/Users/Minfy.DESKTOP-3E50D5N/Desktop/final_capstone/mlruns/625865139401093492/models/m-14aac6f7c4c94c9983903607979fac87/artifacts
+creation_timestamp: 1752771648176
+experiment_id: '625865139401093492'
+last_updated_timestamp: 1752771656718
+model_id: m-14aac6f7c4c94c9983903607979fac87
+model_type: null
+name: random_forest_model
+source_run_id: 90d588213541416289bc854ceb8cd2bf
+status: 2
+status_message: null

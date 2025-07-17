@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/Minfy.DESKTOP-3E50D5N/Desktop/final_capstone/mlruns/625865139401093492/a509b900652f42b98875f1a088bb1462/artifacts
+end_time: 1752771693141
+entry_point_name: ''
+experiment_id: '625865139401093492'
+lifecycle_stage: active
+run_id: a509b900652f42b98875f1a088bb1462
+run_name: LightGBM_223056
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752771656742
+status: 3
+tags: []
+user_id: Minfy
