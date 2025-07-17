@@ -1,0 +1,38 @@
+2025-07-17 19:02:27,509 - INFO - Loading data from: C:\Users\Minfy.DESKTOP-3E50D5N\Desktop\final_capstone\raw_data\Lead Scoring.csv
+2025-07-17 19:02:27,800 - INFO - Data loaded successfully. Shape: (9240, 37)
+2025-07-17 19:02:28,068 - INFO - Dropped 13 columns: ['Prospect ID', 'Lead Number', 'Magazine', 'Receive More Updates About Our Courses', 'Update me on Supply Chain Content', 'Get updates on DM Content', 'I agree to pay the amount through cheque', 'Search', 'Newspaper Article', 'X Education Forums', 'Newspaper', 'Digital Advertisement', 'Through Recommendations']
+2025-07-17 19:02:28,069 - INFO - Remaining columns: 24
+2025-07-17 19:02:28,112 - INFO - Filled TotalVisits with median: 3.0
+2025-07-17 19:02:28,118 - INFO - Filled Total Time Spent on Website with median: 248.0
+2025-07-17 19:02:28,121 - INFO - Filled Page Views Per Visit with median: 2.0
+2025-07-17 19:02:28,124 - INFO - Filled Asymmetrique Activity Score with median: 14.0
+2025-07-17 19:02:28,127 - INFO - Filled Asymmetrique Profile Score with median: 16.0
+2025-07-17 19:02:28,131 - INFO - Filled Do Not Email with 'No'
+2025-07-17 19:02:28,134 - INFO - Filled Do Not Call with 'No'
+2025-07-17 19:02:28,136 - INFO - Filled A free copy of Mastering The Interview with 'No'
+2025-07-17 19:02:28,141 - INFO - Filled Tags with mode: Will revert after reading the email
+2025-07-17 19:02:28,144 - INFO - Filled Lead Quality with mode: Might be
+2025-07-17 19:02:28,150 - INFO - Filled Lead Profile with mode: Select
+2025-07-17 19:02:28,152 - INFO - Filled What is your current occupation with mode: Unemployed
+2025-07-17 19:02:28,156 - INFO - Filled Last Activity with mode: Email Opened
+2025-07-17 19:02:28,158 - INFO - Filled Last Notable Activity with mode: Modified
+2025-07-17 19:02:28,161 - INFO - Filled Lead Source with mode: Google
+2025-07-17 19:02:28,165 - INFO - Filled Lead Origin with mode: Landing Page Submission
+2025-07-17 19:02:28,169 - INFO - Filled Specialization with 'Unknown'
+2025-07-17 19:02:28,171 - INFO - Filled City with 'Unknown'
+2025-07-17 19:02:28,174 - INFO - Filled How did you hear about X Education with 'Unknown'
+2025-07-17 19:02:28,176 - INFO - Filled What matters most to you in choosing a course with 'Unknown'
+2025-07-17 19:02:28,178 - INFO - Filled Country with 'Unknown'
+2025-07-17 19:02:28,199 - INFO - Creating preprocessing pipeline...
+2025-07-17 19:02:28,203 - INFO - Added numerical transformer for: ['TotalVisits', 'Total Time Spent on Website', 'Page Views Per Visit', 'Asymmetrique Activity Score', 'Asymmetrique Profile Score']
+2025-07-17 19:02:28,205 - INFO - Added categorical transformer for: ['Tags', 'Lead Quality', 'Lead Profile', 'What is your current occupation', 'Last Activity', 'Last Notable Activity', 'Lead Source', 'Lead Origin', 'Specialization', 'City', 'How did you hear about X Education', 'What matters most to you in choosing a course', 'Country']
+2025-07-17 19:02:28,222 - INFO - Encoded binary column: Do Not Email
+2025-07-17 19:02:28,225 - INFO - Encoded binary column: Do Not Call
+2025-07-17 19:02:28,229 - INFO - Encoded binary column: A free copy of Mastering The Interview
+2025-07-17 19:02:28,240 - INFO - Applying preprocessing pipeline...
+2025-07-17 19:02:28,377 - INFO - Pipeline transformation completed. Output shape: (9240, 176)
+2025-07-17 19:02:28,381 - INFO - Added target column 'Converted'
+2025-07-17 19:02:28,394 - INFO - Saving results to: C:\Users\Minfy.DESKTOP-3E50D5N\Desktop\final_capstone\preprocess\preprocessed_output
+2025-07-17 19:02:29,160 - INFO - Saved processed data to: C:\Users\Minfy.DESKTOP-3E50D5N\Desktop\final_capstone\preprocess\preprocessed_output\processed\preprocessed_data.csv
+2025-07-17 19:02:29,170 - INFO - Saved pipeline model to: C:\Users\Minfy.DESKTOP-3E50D5N\Desktop\final_capstone\preprocess\preprocessed_output\processed\pipeline_model.pkl
+2025-07-17 19:02:29,172 - INFO - Saved metadata to: C:\Users\Minfy.DESKTOP-3E50D5N\Desktop\final_capstone\preprocess\preprocessed_output\processed\metadata.pkl

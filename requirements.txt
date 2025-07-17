@@ -15,12 +15,17 @@ scipy>=1.7.0
 scikit-learn>=1.0
 shap>=0.41.0
 
+# Gradient Boosting Libraries
+xgboost
+lightgbm
+catboost
+
 # Plotting & dashboards
 evidently>=0.4.9
 
 # MLOps tools
 mlflow>=2.0.1
 
-# Jupyter support (optional)
+# Jupyter support
 ipython
 notebook
