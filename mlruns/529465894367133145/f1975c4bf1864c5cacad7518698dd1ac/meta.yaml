@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/529465894367133145/f1975c4bf1864c5cacad7518698dd1ac/artifacts
+end_time: 1752825689835
+entry_point_name: ''
+experiment_id: '529465894367133145'
+lifecycle_stage: active
+run_id: f1975c4bf1864c5cacad7518698dd1ac
+run_name: likeable-pug-77
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752825644033
+status: 3
+tags: []
+user_id: Minfy

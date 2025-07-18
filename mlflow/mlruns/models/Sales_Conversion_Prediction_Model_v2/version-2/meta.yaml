@@ -1,0 +1,22 @@
+aliases: []
+creation_timestamp: 1752819678311
+current_stage: Production
+deployment_job_state: null
+description: "\n            Best performing sales conversion model: XGBoost\n\n            Performance
+  Metrics:\n            - ROC-AUC: 0.9837\n            - Accuracy: 0.9459\n            -
+  Precision: 0.9359\n            - Recall: 0.9228\n            - F1-Score: 0.9293\n\n
+  \           Dataset: 9240 samples, 179 features\n            Training time: 19.26
+  seconds\n            "
+last_updated_timestamp: 1752819680349
+metrics: null
+model_id: ''
+name: Sales_Conversion_Prediction_Model_v2
+params: null
+run_id: 0761912f20d84702be4bcad6d5d18e27
+run_link: ''
+source: runs:/0761912f20d84702be4bcad6d5d18e27/model
+status: READY
+status_message: null
+storage_location: runs:/0761912f20d84702be4bcad6d5d18e27/model
+user_id: null
+version: 2

@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/162628025470566835/e773754b70a94852aea9dcaefe104d9f/artifacts
+end_time: 1752819629290
+entry_point_name: ''
+experiment_id: '162628025470566835'
+lifecycle_stage: active
+run_id: e773754b70a94852aea9dcaefe104d9f
+run_name: selective-shark-711
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752819626303
+status: 3
+tags: []
+user_id: Minfy
