@@ -1,6 +1,0 @@
-artifact_location: mlflow-artifacts:/529465894367133145
-creation_time: 1752825643748
-experiment_id: '529465894367133145'
-last_update_time: 1752825643748
-lifecycle_stage: active
-name: drift_detection_experiment
