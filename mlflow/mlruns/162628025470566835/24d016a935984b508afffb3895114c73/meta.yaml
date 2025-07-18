@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/162628025470566835/24d016a935984b508afffb3895114c73/artifacts
+end_time: 1752826394211
+entry_point_name: ''
+experiment_id: '162628025470566835'
+lifecycle_stage: active
+run_id: 24d016a935984b508afffb3895114c73
+run_name: flawless-tern-494
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752826393557
+status: 3
+tags: []
+user_id: Minfy

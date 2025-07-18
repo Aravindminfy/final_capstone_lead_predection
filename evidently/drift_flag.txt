@@ -1,0 +1,25 @@
+{
+  "drift_detected": false,
+  "timestamp": "2025-07-18T13:43:25.631478",
+  "drift_threshold": 0.3,
+  "methods_used": [
+    "psi",
+    "ks",
+    "chisquare",
+    "wasserstein"
+  ],
+  "individual_results": {
+    "psi": false,
+    "ks": false,
+    "chisquare": false,
+    "wasserstein": false
+  },
+  "reference_data_shape": [
+    9240,
+    37
+  ],
+  "new_data_shape": [
+    5,
+    37
+  ]
+}

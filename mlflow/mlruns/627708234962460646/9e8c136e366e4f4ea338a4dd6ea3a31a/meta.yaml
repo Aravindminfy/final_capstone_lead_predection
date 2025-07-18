@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/627708234962460646/9e8c136e366e4f4ea338a4dd6ea3a31a/artifacts
+end_time: 1752826405632
+entry_point_name: ''
+experiment_id: '627708234962460646'
+lifecycle_stage: active
+run_id: 9e8c136e366e4f4ea338a4dd6ea3a31a
+run_name: sincere-newt-376
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752826318433
+status: 3
+tags: []
+user_id: Minfy

@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/627708234962460646/f5373534051342f99df6db8e82b1f8b2/artifacts
+end_time: 1752826399997
+entry_point_name: ''
+experiment_id: '627708234962460646'
+lifecycle_stage: active
+run_id: f5373534051342f99df6db8e82b1f8b2
+run_name: placid-wolf-708
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752826304979
+status: 3
+tags: []
+user_id: Minfy

@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/162628025470566835/4bc8b543dc024761b835b2e447afb613/artifacts
+end_time: 1752826391477
+entry_point_name: ''
+experiment_id: '162628025470566835'
+lifecycle_stage: active
+run_id: 4bc8b543dc024761b835b2e447afb613
+run_name: CatBoost
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752826372948
+status: 3
+tags: []
+user_id: Minfy
