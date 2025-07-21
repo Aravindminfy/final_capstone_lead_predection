@@ -1,0 +1,142 @@
+[2025-07-19T15:41:41.144+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ml_pipeline_with_dashboard.run_preprocess manual__2025-07-19T15:33:18.289109+00:00 [queued]>
+[2025-07-19T15:41:41.384+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ml_pipeline_with_dashboard.run_preprocess manual__2025-07-19T15:33:18.289109+00:00 [queued]>
+[2025-07-19T15:41:41.385+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-07-19T15:41:41.907+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): run_preprocess> on 2025-07-19 15:33:18.289109+00:00
+[2025-07-19T15:41:42.307+0000] {standard_task_runner.py:60} INFO - Started process 10565 to run task
+[2025-07-19T15:41:43.523+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'ml_pipeline_with_dashboard', 'run_preprocess', 'manual__2025-07-19T15:33:18.289109+00:00', '--job-id', '171', '--raw', '--subdir', 'DAGS_FOLDER/main_full_processs.py', '--cfg-path', '/tmp/tmpien6qs22']
+[2025-07-19T15:41:44.480+0000] {standard_task_runner.py:88} INFO - Job 171: Subtask run_preprocess
+[2025-07-19T15:41:50.252+0000] {task_command.py:423} INFO - Running <TaskInstance: ml_pipeline_with_dashboard.run_preprocess manual__2025-07-19T15:33:18.289109+00:00 [running]> on host 2b6a031b4c87
+[2025-07-19T15:41:57.509+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='ml_pipeline_with_dashboard' AIRFLOW_CTX_TASK_ID='run_preprocess' AIRFLOW_CTX_EXECUTION_DATE='2025-07-19T15:33:18.289109+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-19T15:33:18.289109+00:00'
+[2025-07-19T15:41:57.754+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-07-19T15:41:57.922+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python /opt/***/dags/preprocess.py']
+[2025-07-19T15:41:58.251+0000] {subprocess.py:86} INFO - Output:
+[2025-07-19T15:42:31.885+0000] {subprocess.py:93} INFO - ✅ All libraries imported successfully!
+[2025-07-19T15:42:31.886+0000] {subprocess.py:93} INFO - Input file: /opt/***/data/Lead Scoring.csv
+[2025-07-19T15:42:31.887+0000] {subprocess.py:93} INFO - Output folder: /opt/***/data
+[2025-07-19T15:42:31.887+0000] {subprocess.py:93} INFO - 🔄 Loading data from: /opt/***/data/Lead Scoring.csv
+[2025-07-19T15:42:31.888+0000] {subprocess.py:93} INFO - ✅ Data loaded successfully. Shape: (9240, 37)
+[2025-07-19T15:42:31.888+0000] {subprocess.py:93} INFO - 
+[2025-07-19T15:42:31.888+0000] {subprocess.py:93} INFO - 📈 Dataset Overview:
+[2025-07-19T15:42:31.889+0000] {subprocess.py:93} INFO -   • Shape: (9240, 37)
+[2025-07-19T15:42:31.889+0000] {subprocess.py:93} INFO -   • Columns: 37
+[2025-07-19T15:42:31.890+0000] {subprocess.py:93} INFO - 
+[2025-07-19T15:42:31.890+0000] {subprocess.py:93} INFO - 🔍 First 3 rows:
+[2025-07-19T15:42:31.890+0000] {subprocess.py:93} INFO -                             Prospect ID  ...  Last Notable Activity
+[2025-07-19T15:42:31.891+0000] {subprocess.py:93} INFO - 0  7927b2df-8bba-4d29-b9a2-b6e0beafe620  ...               Modified
+[2025-07-19T15:42:31.891+0000] {subprocess.py:93} INFO - 1  2a272436-5132-4136-86fa-dcc88c88f482  ...           Email Opened
+[2025-07-19T15:42:31.891+0000] {subprocess.py:93} INFO - 2  8cc8c611-a219-4f35-ad23-fdfd2656bd8a  ...           Email Opened
+[2025-07-19T15:42:31.892+0000] {subprocess.py:93} INFO - 
+[2025-07-19T15:42:31.892+0000] {subprocess.py:93} INFO - [3 rows x 37 columns]
+[2025-07-19T15:42:31.892+0000] {subprocess.py:93} INFO - 
+[2025-07-19T15:42:31.893+0000] {subprocess.py:93} INFO - 🎯 Target Variable:
+[2025-07-19T15:42:31.893+0000] {subprocess.py:93} INFO - Converted
+[2025-07-19T15:42:31.894+0000] {subprocess.py:93} INFO - 0    5679
+[2025-07-19T15:42:31.894+0000] {subprocess.py:93} INFO - 1    3561
+[2025-07-19T15:42:31.894+0000] {subprocess.py:93} INFO - Name: count, dtype: int64
+[2025-07-19T15:42:31.894+0000] {subprocess.py:93} INFO -   • Conversion Rate: 38.54%
+[2025-07-19T15:42:31.895+0000] {subprocess.py:93} INFO - 
+[2025-07-19T15:42:31.895+0000] {subprocess.py:93} INFO - 🔍 Missing Values Analysis:
+[2025-07-19T15:42:31.895+0000] {subprocess.py:93} INFO -                                                Missing_Count  Missing_Percentage
+[2025-07-19T15:42:31.896+0000] {subprocess.py:93} INFO - Lead Quality                                            4767           51.590909
+[2025-07-19T15:42:31.896+0000] {subprocess.py:93} INFO - Asymmetrique Activity Index                             4218           45.649351
+[2025-07-19T15:42:31.897+0000] {subprocess.py:93} INFO - Asymmetrique Profile Score                              4218           45.649351
+[2025-07-19T15:42:31.897+0000] {subprocess.py:93} INFO - Asymmetrique Activity Score                             4218           45.649351
+[2025-07-19T15:42:31.897+0000] {subprocess.py:93} INFO - Asymmetrique Profile Index                              4218           45.649351
+[2025-07-19T15:42:31.897+0000] {subprocess.py:93} INFO - Tags                                                    3353           36.287879
+[2025-07-19T15:42:31.898+0000] {subprocess.py:93} INFO - Lead Profile                                            2709           29.318182
+[2025-07-19T15:42:31.898+0000] {subprocess.py:93} INFO - What matters most to you in choosing a course           2709           29.318182
+[2025-07-19T15:42:31.898+0000] {subprocess.py:93} INFO - What is your current occupation                         2690           29.112554
+[2025-07-19T15:42:31.898+0000] {subprocess.py:93} INFO - Country                                                 2461           26.634199
+[2025-07-19T15:42:31.899+0000] {subprocess.py:93} INFO - How did you hear about X Education                      2207           23.885281
+[2025-07-19T15:42:31.899+0000] {subprocess.py:93} INFO - Specialization                                          1438           15.562771
+[2025-07-19T15:42:31.899+0000] {subprocess.py:93} INFO - City                                                    1420           15.367965
+[2025-07-19T15:42:31.899+0000] {subprocess.py:93} INFO - Page Views Per Visit                                     137            1.482684
+[2025-07-19T15:42:31.900+0000] {subprocess.py:93} INFO - TotalVisits                                              137            1.482684
+[2025-07-19T15:42:31.900+0000] {subprocess.py:93} INFO - Last Activity                                            103            1.114719
+[2025-07-19T15:42:31.900+0000] {subprocess.py:93} INFO - Lead Source                                               36            0.389610
+[2025-07-19T15:42:31.900+0000] {subprocess.py:93} INFO - 🗑️ Dropped 13 unnecessary columns
+[2025-07-19T15:42:31.901+0000] {subprocess.py:93} INFO -    Dropped: ['Prospect ID', 'Lead Number', 'Magazine', 'Receive More Updates About Our Courses', 'Update me on Supply Chain Content', 'Get updates on DM Content', 'I agree to pay the amount through cheque', 'Search', 'Newspaper Article', 'X Education Forums', 'Newspaper', 'Digital Advertisement', 'Through Recommendations']
+[2025-07-19T15:42:31.901+0000] {subprocess.py:93} INFO - ✅ Remaining columns: 24
+[2025-07-19T15:42:31.901+0000] {subprocess.py:93} INFO - 
+[2025-07-19T15:42:31.901+0000] {subprocess.py:93} INFO - 🔢 Handling Numerical Columns:
+[2025-07-19T15:42:31.901+0000] {subprocess.py:93} INFO -   • TotalVisits: 137 values → median (3.00)
+[2025-07-19T15:42:31.902+0000] {subprocess.py:93} INFO -   • Page Views Per Visit: 137 values → median (2.00)
+[2025-07-19T15:42:31.902+0000] {subprocess.py:93} INFO -   • Asymmetrique Activity Score: 4218 values → median (14.00)
+[2025-07-19T15:42:31.902+0000] {subprocess.py:93} INFO -   • Asymmetrique Profile Score: 4218 values → median (16.00)
+[2025-07-19T15:42:31.902+0000] {subprocess.py:93} INFO - 
+[2025-07-19T15:42:31.903+0000] {subprocess.py:93} INFO - 🔘 Handling Binary Columns:
+[2025-07-19T15:42:31.903+0000] {subprocess.py:93} INFO - 
+[2025-07-19T15:42:31.903+0000] {subprocess.py:93} INFO - 🏷️ Handling Categorical Columns:
+[2025-07-19T15:42:31.934+0000] {subprocess.py:93} INFO -   • Tags: 3353 values → 'Will revert after reading the email'
+[2025-07-19T15:42:31.934+0000] {subprocess.py:93} INFO -   • Lead Quality: 4767 values → 'Might be'
+[2025-07-19T15:42:31.935+0000] {subprocess.py:93} INFO -   • Lead Profile: 2709 values → 'Select'
+[2025-07-19T15:42:31.935+0000] {subprocess.py:93} INFO -   • What is your current occupation: 2690 values → 'Unemployed'
+[2025-07-19T15:42:31.936+0000] {subprocess.py:93} INFO -   • Last Activity: 103 values → 'Email Opened'
+[2025-07-19T15:42:31.936+0000] {subprocess.py:93} INFO -   • Lead Source: 36 values → 'Google'
+[2025-07-19T15:42:31.937+0000] {subprocess.py:93} INFO -   • Specialization: 1438 values → 'Select'
+[2025-07-19T15:42:31.937+0000] {subprocess.py:93} INFO -   • City: 1420 values → 'Mumbai'
+[2025-07-19T15:42:31.937+0000] {subprocess.py:93} INFO -   • How did you hear about X Education: 2207 values → 'Select'
+[2025-07-19T15:42:31.938+0000] {subprocess.py:93} INFO -   • What matters most to you in choosing a course: 2709 values → 'Better Career Prospects'
+[2025-07-19T15:42:31.938+0000] {subprocess.py:93} INFO -   • Country: 2461 values → 'India'
+[2025-07-19T15:42:31.938+0000] {subprocess.py:93} INFO - 
+[2025-07-19T15:42:31.939+0000] {subprocess.py:93} INFO - ✅ Missing value handling complete. Remaining missing: 8436
+[2025-07-19T15:42:31.939+0000] {subprocess.py:93} INFO - 
+[2025-07-19T15:42:31.939+0000] {subprocess.py:93} INFO - 🔧 Pipeline Configuration:
+[2025-07-19T15:42:31.940+0000] {subprocess.py:93} INFO -   • Numerical columns (5): ['TotalVisits', 'Total Time Spent on Website', 'Page Views Per Visit', 'Asymmetrique Activity Score', 'Asymmetrique Profile Score']
+[2025-07-19T15:42:31.940+0000] {subprocess.py:93} INFO -   • Categorical columns (18): ['Lead Origin', 'Lead Source', 'Do Not Email', 'Do Not Call', 'Last Activity', 'Country', 'Specialization', 'How did you hear about X Education', 'What is your current occupation', 'What matters most to you in choosing a course', 'Tags', 'Lead Quality', 'Lead Profile', 'City', 'Asymmetrique Activity Index', 'Asymmetrique Profile Index', 'A free copy of Mastering The Interview', 'Last Notable Activity']
+[2025-07-19T15:42:31.940+0000] {subprocess.py:93} INFO -   ✅ Added MinMax scaler for numerical features
+[2025-07-19T15:42:31.940+0000] {subprocess.py:93} INFO -   ✅ Added OneHot encoder for categorical features
+[2025-07-19T15:42:31.941+0000] {subprocess.py:93} INFO - 
+[2025-07-19T15:42:31.941+0000] {subprocess.py:93} INFO - 🔄 Applying preprocessing pipeline...
+[2025-07-19T15:42:31.941+0000] {subprocess.py:93} INFO - ✅ Features transformed. Shape: (9240, 180)
+[2025-07-19T15:42:31.941+0000] {subprocess.py:93} INFO - ✅ Target column added back
+[2025-07-19T15:42:31.942+0000] {subprocess.py:93} INFO - ✅ Final dataset shape: (9240, 181)
+[2025-07-19T15:42:31.942+0000] {subprocess.py:93} INFO - 
+[2025-07-19T15:42:31.942+0000] {subprocess.py:93} INFO - 📊 FINAL DATASET SUMMARY:
+[2025-07-19T15:42:31.942+0000] {subprocess.py:93} INFO -   • Total samples: 9240
+[2025-07-19T15:42:31.943+0000] {subprocess.py:93} INFO -   • Total features: 180
+[2025-07-19T15:42:31.943+0000] {subprocess.py:93} INFO -   • Has target: Yes
+[2025-07-19T15:42:31.943+0000] {subprocess.py:93} INFO - 
+[2025-07-19T15:42:31.943+0000] {subprocess.py:93} INFO - 🎯 Target Distribution:
+[2025-07-19T15:42:31.943+0000] {subprocess.py:93} INFO -   • Class 0: 5679 (61.5%)
+[2025-07-19T15:42:31.944+0000] {subprocess.py:93} INFO -   • Class 1: 3561 (38.5%)
+[2025-07-19T15:42:31.944+0000] {subprocess.py:93} INFO - 
+[2025-07-19T15:42:31.944+0000] {subprocess.py:93} INFO - 💾 Saving results to: /opt/***/data
+[2025-07-19T15:42:31.944+0000] {subprocess.py:93} INFO - ✅ Processed data saved: /opt/***/data/preprocessed_data.csv
+[2025-07-19T15:42:31.945+0000] {subprocess.py:93} INFO - ✅ Pipeline saved: /opt/***/data/preprocessing_pipeline.pkl
+[2025-07-19T15:42:31.945+0000] {subprocess.py:93} INFO - ✅ Metadata saved: /opt/***/data/processing_metadata.pkl
+[2025-07-19T15:42:31.945+0000] {subprocess.py:93} INFO - 
+[2025-07-19T15:42:31.946+0000] {subprocess.py:93} INFO - 🎉 PREPROCESSING COMPLETED!
+[2025-07-19T15:42:31.946+0000] {subprocess.py:93} INFO - 📁 Output location: /opt/***/data
+[2025-07-19T15:42:31.946+0000] {subprocess.py:93} INFO - ✅ All files saved successfully
+[2025-07-19T15:42:31.947+0000] {subprocess.py:93} INFO - 
+[2025-07-19T15:42:31.947+0000] {subprocess.py:93} INFO - 🤖 MODEL READINESS STATUS:
+[2025-07-19T15:42:31.948+0000] {subprocess.py:93} INFO - ✅ Data cleaned and preprocessed
+[2025-07-19T15:42:31.948+0000] {subprocess.py:93} INFO - ✅ Missing values handled
+[2025-07-19T15:42:31.948+0000] {subprocess.py:93} INFO - ✅ Features scaled and encoded
+[2025-07-19T15:42:31.949+0000] {subprocess.py:93} INFO - ✅ Ready for machine learning!
+[2025-07-19T15:42:31.949+0000] {subprocess.py:93} INFO - 
+[2025-07-19T15:42:31.949+0000] {subprocess.py:93} INFO - 📋 Final Data Sample (first 3 rows):
+[2025-07-19T15:42:31.949+0000] {subprocess.py:93} INFO -    TotalVisits  ...  Converted
+[2025-07-19T15:42:31.950+0000] {subprocess.py:93} INFO - 0     0.000000  ...          0
+[2025-07-19T15:42:31.950+0000] {subprocess.py:93} INFO - 1     0.019920  ...          0
+[2025-07-19T15:42:31.950+0000] {subprocess.py:93} INFO - 2     0.007968  ...          1
+[2025-07-19T15:42:31.950+0000] {subprocess.py:93} INFO - 
+[2025-07-19T15:42:31.951+0000] {subprocess.py:93} INFO - [3 rows x 181 columns]
+[2025-07-19T15:42:31.951+0000] {subprocess.py:93} INFO - 
+[2025-07-19T15:42:31.951+0000] {subprocess.py:93} INFO - 📈 Basic Statistics:
+[2025-07-19T15:42:31.952+0000] {subprocess.py:93} INFO -        TotalVisits  ...    Converted
+[2025-07-19T15:42:31.952+0000] {subprocess.py:93} INFO - count  9240.000000  ...  9240.000000
+[2025-07-19T15:42:31.952+0000] {subprocess.py:93} INFO - mean      0.013700  ...     0.385390
+[2025-07-19T15:42:31.953+0000] {subprocess.py:93} INFO - std       0.019199  ...     0.486714
+[2025-07-19T15:42:31.953+0000] {subprocess.py:93} INFO - min       0.000000  ...     0.000000
+[2025-07-19T15:42:31.953+0000] {subprocess.py:93} INFO - 25%       0.003984  ...     0.000000
+[2025-07-19T15:42:31.953+0000] {subprocess.py:93} INFO - 50%       0.011952  ...     0.000000
+[2025-07-19T15:42:31.954+0000] {subprocess.py:93} INFO - 75%       0.019920  ...     1.000000
+[2025-07-19T15:42:31.954+0000] {subprocess.py:93} INFO - max       1.000000  ...     1.000000
+[2025-07-19T15:42:31.954+0000] {subprocess.py:93} INFO - 
+[2025-07-19T15:42:31.954+0000] {subprocess.py:93} INFO - [8 rows x 181 columns]
+[2025-07-19T15:42:32.087+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-07-19T15:42:32.116+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=ml_pipeline_with_dashboard, task_id=run_preprocess, execution_date=20250719T153318, start_date=20250719T154141, end_date=20250719T154232
+[2025-07-19T15:42:32.137+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-07-19T15:42:32.152+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

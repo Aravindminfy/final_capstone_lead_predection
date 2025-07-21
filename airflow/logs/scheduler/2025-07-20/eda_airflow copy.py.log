@@ -1,0 +1,520 @@
+[2025-07-20T06:47:55.882+0000] {processor.py:161} INFO - Started process (PID=193) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T06:47:55.883+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T06:47:55.884+0000] {logging_mixin.py:188} INFO - [2025-07-20T06:47:55.884+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T06:47:55.899+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T06:47:55.922+0000] {logging_mixin.py:188} INFO - [2025-07-20T06:47:55.922+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T06:47:55.933+0000] {logging_mixin.py:188} INFO - [2025-07-20T06:47:55.933+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T06:47:55.952+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.073 seconds
+[2025-07-20T06:49:46.668+0000] {processor.py:161} INFO - Started process (PID=930) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T06:49:47.988+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T06:49:47.998+0000] {logging_mixin.py:188} INFO - [2025-07-20T06:49:47.994+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T06:50:07.378+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T06:53:02.639+0000] {processor.py:161} INFO - Started process (PID=2498) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T06:53:02.645+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T06:53:03.515+0000] {logging_mixin.py:188} INFO - [2025-07-20T06:53:03.441+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T06:53:03.561+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T06:53:10.093+0000] {logging_mixin.py:188} INFO - [2025-07-20T06:53:10.093+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T06:53:10.700+0000] {logging_mixin.py:188} INFO - [2025-07-20T06:53:10.700+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T06:53:22.923+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 21.879 seconds
+[2025-07-20T06:53:54.698+0000] {processor.py:161} INFO - Started process (PID=2544) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T06:53:54.706+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T06:53:54.711+0000] {logging_mixin.py:188} INFO - [2025-07-20T06:53:54.710+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T06:53:54.791+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T06:53:54.863+0000] {logging_mixin.py:188} INFO - [2025-07-20T06:53:54.863+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T06:53:54.899+0000] {logging_mixin.py:188} INFO - [2025-07-20T06:53:54.898+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T06:53:55.363+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.670 seconds
+[2025-07-20T06:54:25.887+0000] {processor.py:161} INFO - Started process (PID=2579) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T06:54:25.906+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T06:54:25.908+0000] {logging_mixin.py:188} INFO - [2025-07-20T06:54:25.907+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T06:54:25.933+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T06:54:26.330+0000] {logging_mixin.py:188} INFO - [2025-07-20T06:54:26.330+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T06:54:26.369+0000] {logging_mixin.py:188} INFO - [2025-07-20T06:54:26.368+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T06:54:27.528+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 1.681 seconds
+[2025-07-20T06:54:57.814+0000] {processor.py:161} INFO - Started process (PID=2614) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T06:54:57.817+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T06:54:57.828+0000] {logging_mixin.py:188} INFO - [2025-07-20T06:54:57.827+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T06:54:57.950+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T06:54:58.048+0000] {logging_mixin.py:188} INFO - [2025-07-20T06:54:58.048+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T06:54:58.131+0000] {logging_mixin.py:188} INFO - [2025-07-20T06:54:58.130+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T06:54:58.219+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.410 seconds
+[2025-07-20T06:55:29.300+0000] {processor.py:161} INFO - Started process (PID=2649) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T06:55:29.324+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T06:55:29.327+0000] {logging_mixin.py:188} INFO - [2025-07-20T06:55:29.326+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T06:55:29.416+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T06:55:29.533+0000] {logging_mixin.py:188} INFO - [2025-07-20T06:55:29.532+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T06:55:29.694+0000] {logging_mixin.py:188} INFO - [2025-07-20T06:55:29.694+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T06:55:29.966+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.690 seconds
+[2025-07-20T06:56:00.976+0000] {processor.py:161} INFO - Started process (PID=2684) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T06:56:00.999+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T06:56:01.002+0000] {logging_mixin.py:188} INFO - [2025-07-20T06:56:01.001+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T06:56:01.119+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T06:56:01.757+0000] {logging_mixin.py:188} INFO - [2025-07-20T06:56:01.757+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T06:56:01.792+0000] {logging_mixin.py:188} INFO - [2025-07-20T06:56:01.791+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T06:56:01.891+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.924 seconds
+[2025-07-20T06:56:33.243+0000] {processor.py:161} INFO - Started process (PID=2717) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T06:56:33.273+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T06:56:33.293+0000] {logging_mixin.py:188} INFO - [2025-07-20T06:56:33.293+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T06:56:33.648+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T06:56:33.734+0000] {logging_mixin.py:188} INFO - [2025-07-20T06:56:33.733+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T06:56:33.888+0000] {logging_mixin.py:188} INFO - [2025-07-20T06:56:33.888+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T06:56:34.113+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.876 seconds
+[2025-07-20T06:57:05.060+0000] {processor.py:161} INFO - Started process (PID=2754) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T06:57:05.108+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T06:57:05.111+0000] {logging_mixin.py:188} INFO - [2025-07-20T06:57:05.110+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T06:57:05.154+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T06:57:05.951+0000] {logging_mixin.py:188} INFO - [2025-07-20T06:57:05.950+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T06:57:06.032+0000] {logging_mixin.py:188} INFO - [2025-07-20T06:57:06.031+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T06:57:06.144+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 1.164 seconds
+[2025-07-20T06:57:37.165+0000] {processor.py:161} INFO - Started process (PID=2789) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T06:57:37.174+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T06:57:37.177+0000] {logging_mixin.py:188} INFO - [2025-07-20T06:57:37.176+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T06:57:37.208+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T06:57:37.288+0000] {logging_mixin.py:188} INFO - [2025-07-20T06:57:37.287+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T06:57:37.363+0000] {logging_mixin.py:188} INFO - [2025-07-20T06:57:37.362+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T06:57:37.479+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.319 seconds
+[2025-07-20T06:58:28.523+0000] {processor.py:161} INFO - Started process (PID=2802) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T06:58:28.740+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T06:58:28.754+0000] {logging_mixin.py:188} INFO - [2025-07-20T06:58:28.753+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T06:58:28.793+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T06:58:29.050+0000] {logging_mixin.py:188} INFO - [2025-07-20T06:58:29.050+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T06:58:29.094+0000] {logging_mixin.py:188} INFO - [2025-07-20T06:58:29.094+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T06:58:29.408+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.887 seconds
+[2025-07-20T06:59:02.256+0000] {processor.py:161} INFO - Started process (PID=2834) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T06:59:02.258+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T06:59:02.280+0000] {logging_mixin.py:188} INFO - [2025-07-20T06:59:02.279+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T06:59:02.304+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T06:59:02.540+0000] {logging_mixin.py:188} INFO - [2025-07-20T06:59:02.539+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T06:59:02.684+0000] {logging_mixin.py:188} INFO - [2025-07-20T06:59:02.683+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T06:59:02.830+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.579 seconds
+[2025-07-20T06:59:34.342+0000] {processor.py:161} INFO - Started process (PID=2869) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T06:59:34.380+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T06:59:34.409+0000] {logging_mixin.py:188} INFO - [2025-07-20T06:59:34.408+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T06:59:34.837+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T06:59:35.448+0000] {logging_mixin.py:188} INFO - [2025-07-20T06:59:35.447+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T06:59:35.492+0000] {logging_mixin.py:188} INFO - [2025-07-20T06:59:35.491+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T06:59:35.751+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 1.415 seconds
+[2025-07-20T07:00:06.944+0000] {processor.py:161} INFO - Started process (PID=2904) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:00:06.945+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:00:06.947+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:00:06.946+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:00:07.011+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:00:07.111+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:00:07.110+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:00:07.151+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:00:07.150+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:00:07.543+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.605 seconds
+[2025-07-20T07:00:40.144+0000] {processor.py:161} INFO - Started process (PID=2939) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:00:40.164+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:00:40.215+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:00:40.212+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:00:41.874+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:00:42.042+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:00:42.042+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:00:42.119+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:00:42.119+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:00:42.343+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 2.227 seconds
+[2025-07-20T07:01:12.610+0000] {processor.py:161} INFO - Started process (PID=2974) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:01:12.627+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:01:12.631+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:01:12.630+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:01:12.690+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:02:39.846+0000] {processor.py:161} INFO - Started process (PID=3025) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:02:40.405+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:02:40.410+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:02:40.409+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:02:55.989+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:04:22.594+0000] {processor.py:161} INFO - Started process (PID=3054) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:04:22.602+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:04:22.606+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:04:22.605+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:04:22.638+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:08:57.751+0000] {processor.py:161} INFO - Started process (PID=3085) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:08:57.753+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:08:57.756+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:08:57.755+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:08:57.970+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:09:20.604+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:09:20.604+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:09:20.613+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:09:20.613+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:09:20.638+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 22.910 seconds
+[2025-07-20T07:09:51.146+0000] {processor.py:161} INFO - Started process (PID=3138) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:09:51.147+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:09:51.148+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:09:51.148+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:09:51.159+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:09:51.186+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:09:51.185+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:09:51.198+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:09:51.197+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:09:51.221+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.082 seconds
+[2025-07-20T07:10:21.341+0000] {processor.py:161} INFO - Started process (PID=3185) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:10:21.342+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:10:21.343+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:10:21.343+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:10:21.356+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:10:21.373+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:10:21.373+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:10:21.386+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:10:21.386+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:10:21.414+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.076 seconds
+[2025-07-20T07:10:51.615+0000] {processor.py:161} INFO - Started process (PID=3220) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:10:51.616+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:10:51.617+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:10:51.617+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:10:51.629+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:10:52.275+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:10:52.273+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:10:52.549+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:10:52.549+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:10:52.575+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.963 seconds
+[2025-07-20T07:11:23.301+0000] {processor.py:161} INFO - Started process (PID=3260) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:11:23.302+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:11:23.303+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:11:23.303+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:11:23.313+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:11:23.340+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:11:23.340+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:11:23.354+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:11:23.354+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:11:23.397+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.099 seconds
+[2025-07-20T07:11:53.531+0000] {processor.py:161} INFO - Started process (PID=3295) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:11:53.532+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:11:53.533+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:11:53.533+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:11:53.544+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:11:53.660+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:11:53.660+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:11:53.670+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:11:53.670+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:11:53.694+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.165 seconds
+[2025-07-20T07:12:23.812+0000] {processor.py:161} INFO - Started process (PID=3340) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:12:23.814+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:12:23.815+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:12:23.815+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:12:23.890+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:12:23.941+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:12:23.941+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:12:23.990+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:12:23.989+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:12:24.051+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.242 seconds
+[2025-07-20T07:12:54.190+0000] {processor.py:161} INFO - Started process (PID=3385) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:12:54.191+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:12:54.192+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:12:54.191+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:12:54.201+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:12:54.296+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:12:54.296+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:12:54.306+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:12:54.306+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:12:54.324+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.137 seconds
+[2025-07-20T07:13:24.674+0000] {processor.py:161} INFO - Started process (PID=3418) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:13:24.675+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:13:24.676+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:13:24.675+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:13:24.689+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:13:24.714+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:13:24.714+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:13:24.727+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:13:24.726+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:13:24.756+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.085 seconds
+[2025-07-20T07:13:55.225+0000] {processor.py:161} INFO - Started process (PID=3480) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:13:55.226+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:13:55.227+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:13:55.226+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:13:55.238+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:13:55.349+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:13:55.349+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:13:55.359+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:13:55.359+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:13:55.381+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.159 seconds
+[2025-07-20T07:14:26.038+0000] {processor.py:161} INFO - Started process (PID=3573) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:14:26.048+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:14:26.051+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:14:26.050+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:14:26.074+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:14:26.112+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:14:26.112+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:14:26.130+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:14:26.130+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:14:26.193+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.158 seconds
+[2025-07-20T07:14:57.224+0000] {processor.py:161} INFO - Started process (PID=4093) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:14:57.228+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:14:57.282+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:14:57.281+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:14:57.310+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:14:58.062+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:14:58.062+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:14:58.162+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:14:58.161+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:14:58.452+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 1.234 seconds
+[2025-07-20T07:15:29.919+0000] {processor.py:161} INFO - Started process (PID=5087) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:15:29.922+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:15:29.925+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:15:29.924+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:15:29.947+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:15:41.298+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:15:41.298+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:15:44.663+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:15:44.663+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:16:19.884+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 50.003 seconds
+[2025-07-20T07:16:49.698+0000] {processor.py:161} INFO - Started process (PID=5934) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:16:49.710+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:16:49.712+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:16:49.712+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:16:49.728+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:16:50.218+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:16:50.217+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:16:50.263+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:16:50.263+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:16:50.327+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.636 seconds
+[2025-07-20T07:17:21.051+0000] {processor.py:161} INFO - Started process (PID=5996) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:17:21.115+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:17:21.120+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:17:21.119+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:17:21.220+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:17:29.235+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:17:29.234+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:17:29.321+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:17:29.321+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:17:29.483+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 8.492 seconds
+[2025-07-20T07:18:03.120+0000] {processor.py:161} INFO - Started process (PID=6038) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:18:03.121+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:18:03.125+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:18:03.125+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:18:03.248+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:18:04.716+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:18:04.715+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:18:04.804+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:18:04.803+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:18:04.909+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 1.798 seconds
+[2025-07-20T07:18:35.777+0000] {processor.py:161} INFO - Started process (PID=6094) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:18:35.792+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:18:35.795+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:18:35.794+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:18:35.817+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:18:36.528+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:18:36.526+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:18:36.570+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:18:36.569+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:18:36.688+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.917 seconds
+[2025-07-20T07:19:06.944+0000] {processor.py:161} INFO - Started process (PID=6132) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:19:06.946+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:19:06.951+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:19:06.950+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:19:06.970+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:19:07.060+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:19:07.059+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:19:07.092+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:19:07.092+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:19:07.184+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.246 seconds
+[2025-07-20T07:19:37.559+0000] {processor.py:161} INFO - Started process (PID=6167) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:19:37.563+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:19:37.565+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:19:37.564+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:19:37.596+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:19:37.622+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:19:37.621+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:19:37.669+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:19:37.668+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:19:37.770+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.217 seconds
+[2025-07-20T07:20:08.636+0000] {processor.py:161} INFO - Started process (PID=6202) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:20:08.639+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:20:08.646+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:20:08.645+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:20:08.664+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:20:09.188+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:20:09.187+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:20:09.257+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:20:09.257+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:20:09.390+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.760 seconds
+[2025-07-20T07:20:39.939+0000] {processor.py:161} INFO - Started process (PID=6255) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:20:39.961+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:20:39.964+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:20:39.963+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:20:39.982+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:20:40.106+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:20:40.105+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:20:40.152+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:20:40.151+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:20:40.263+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.332 seconds
+[2025-07-20T07:21:10.869+0000] {processor.py:161} INFO - Started process (PID=6290) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:21:10.876+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:21:10.881+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:21:10.879+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:21:10.906+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:21:10.948+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:21:10.948+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:21:11.035+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:21:11.035+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:21:11.139+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.278 seconds
+[2025-07-20T07:21:41.711+0000] {processor.py:161} INFO - Started process (PID=6342) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:21:41.729+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:21:41.731+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:21:41.731+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:21:41.749+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:21:42.489+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:21:42.488+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:21:42.527+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:21:42.526+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:21:42.619+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.915 seconds
+[2025-07-20T07:22:13.139+0000] {processor.py:161} INFO - Started process (PID=6380) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:22:13.140+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:22:13.141+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:22:13.141+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:22:13.154+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:22:13.181+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:22:13.181+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:22:13.203+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:22:13.203+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:22:13.243+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.108 seconds
+[2025-07-20T07:22:44.872+0000] {processor.py:161} INFO - Started process (PID=6827) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:22:44.883+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:22:44.901+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:22:44.900+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:22:44.966+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:22:45.101+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:22:45.101+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:22:45.326+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:22:45.323+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:22:45.686+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.820 seconds
+[2025-07-20T07:23:16.356+0000] {processor.py:161} INFO - Started process (PID=6862) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:23:16.357+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:23:16.358+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:23:16.358+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:23:16.370+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:23:16.486+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:23:16.486+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:23:16.496+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:23:16.496+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:23:16.519+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.167 seconds
+[2025-07-20T07:23:46.689+0000] {processor.py:161} INFO - Started process (PID=6902) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:23:46.690+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:23:46.690+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:23:46.690+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:23:46.701+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:23:46.726+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:23:46.726+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:23:46.738+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:23:46.738+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:23:46.764+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.079 seconds
+[2025-07-20T07:24:17.571+0000] {processor.py:161} INFO - Started process (PID=6932) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:24:17.572+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:24:17.573+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:24:17.572+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:24:17.584+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:24:17.597+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:24:17.596+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:24:17.609+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:24:17.609+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:24:17.757+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.190 seconds
+[2025-07-20T07:24:47.837+0000] {processor.py:161} INFO - Started process (PID=6967) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:24:47.838+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:24:47.839+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:24:47.839+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:24:47.855+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:24:48.013+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:24:48.013+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:24:48.028+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:24:48.027+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:24:48.064+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.232 seconds
+[2025-07-20T07:25:18.921+0000] {processor.py:161} INFO - Started process (PID=7002) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:25:18.922+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:25:18.923+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:25:18.923+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:25:18.934+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:25:18.961+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:25:18.961+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:25:18.973+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:25:18.973+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:25:19.002+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.084 seconds
+[2025-07-20T07:25:49.943+0000] {processor.py:161} INFO - Started process (PID=7037) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:25:49.946+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:25:49.948+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:25:49.947+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:25:49.959+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:25:49.971+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:25:49.971+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:25:49.984+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:25:49.984+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:25:50.015+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.075 seconds
+[2025-07-20T07:26:20.271+0000] {processor.py:161} INFO - Started process (PID=7072) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:26:20.272+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:26:20.273+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:26:20.273+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:26:20.289+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:26:20.443+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:26:20.442+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:26:20.456+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:26:20.456+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:26:20.492+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.225 seconds
+[2025-07-20T07:26:50.546+0000] {processor.py:161} INFO - Started process (PID=7112) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:26:50.547+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:26:50.548+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:26:50.548+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:26:50.558+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:26:50.581+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:26:50.581+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:26:50.592+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:26:50.592+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:26:50.615+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.072 seconds
+[2025-07-20T07:27:20.654+0000] {processor.py:161} INFO - Started process (PID=7142) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:27:20.656+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:27:20.657+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:27:20.656+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:27:20.669+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:27:20.680+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:27:20.679+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:27:20.693+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:27:20.693+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:27:20.718+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.067 seconds
+[2025-07-20T07:27:51.670+0000] {processor.py:161} INFO - Started process (PID=7177) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:27:51.672+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:27:51.673+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:27:51.673+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:27:51.685+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:27:51.797+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:27:51.797+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:27:51.807+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:27:51.806+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:27:51.828+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.161 seconds
+[2025-07-20T07:28:22.005+0000] {processor.py:161} INFO - Started process (PID=7261) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:28:22.006+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:28:22.010+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:28:22.008+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:28:22.024+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:28:22.078+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:28:22.078+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:28:22.097+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:28:22.096+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:28:22.134+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.134 seconds
+[2025-07-20T07:28:52.191+0000] {processor.py:161} INFO - Started process (PID=7301) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:28:52.192+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:28:52.193+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:28:52.193+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:28:52.203+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:28:52.213+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:28:52.213+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:28:52.225+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:28:52.224+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:28:52.248+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.060 seconds
+[2025-07-20T07:29:23.024+0000] {processor.py:161} INFO - Started process (PID=7330) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:29:23.025+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:29:23.026+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:29:23.026+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:29:23.038+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:29:23.145+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:29:23.145+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:29:23.156+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:29:23.156+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:29:23.178+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.158 seconds
+[2025-07-20T07:29:53.889+0000] {processor.py:161} INFO - Started process (PID=7365) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:29:53.890+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:29:53.891+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:29:53.891+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:29:53.902+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:29:53.929+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:29:53.929+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:29:53.940+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:29:53.940+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:29:53.963+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.076 seconds
+[2025-07-20T07:30:24.860+0000] {processor.py:161} INFO - Started process (PID=7418) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:30:24.861+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:30:24.862+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:30:24.862+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:30:24.875+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:30:24.886+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:30:24.886+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:30:24.905+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:30:24.904+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:30:24.930+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.074 seconds
+[2025-07-20T07:30:55.811+0000] {processor.py:161} INFO - Started process (PID=7455) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:30:55.812+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:30:55.813+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:30:55.813+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:30:55.825+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:30:55.949+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:30:55.948+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:30:55.959+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:30:55.958+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:30:55.989+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.181 seconds
+[2025-07-20T07:31:26.842+0000] {processor.py:161} INFO - Started process (PID=7490) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:31:26.842+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:31:26.843+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:31:26.843+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:31:26.856+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:31:26.882+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:31:26.882+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:31:26.893+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:31:26.893+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:31:26.914+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.075 seconds
+[2025-07-20T07:31:57.624+0000] {processor.py:161} INFO - Started process (PID=7569) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:31:57.625+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:31:57.627+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:31:57.626+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:31:57.638+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:31:57.650+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:31:57.650+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:31:57.667+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:31:57.667+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:31:57.693+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.072 seconds
+[2025-07-20T07:32:29.353+0000] {processor.py:161} INFO - Started process (PID=8033) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:32:29.369+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:32:29.371+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:32:29.370+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:32:29.395+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:32:30.890+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:32:30.889+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:32:30.969+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:32:30.968+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:32:31.219+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 1.873 seconds
+[2025-07-20T07:34:15.373+0000] {processor.py:161} INFO - Started process (PID=9713) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:34:15.394+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:34:16.034+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:34:15.492+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:34:20.820+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:34:23.276+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:34:23.275+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:34:23.448+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:34:23.447+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:34:23.705+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 8.372 seconds
+[2025-07-20T07:35:16.288+0000] {processor.py:161} INFO - Started process (PID=9964) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:35:16.290+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:35:16.291+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:35:16.290+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:35:16.303+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:35:16.551+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:35:16.551+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:35:16.559+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:35:16.559+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:35:16.583+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.298 seconds
+[2025-07-20T07:35:47.412+0000] {processor.py:161} INFO - Started process (PID=10001) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:35:47.414+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:35:47.417+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:35:47.416+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:35:47.432+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:35:47.462+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:35:47.462+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:35:47.474+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:35:47.474+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:35:47.499+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.091 seconds
+[2025-07-20T07:36:18.236+0000] {processor.py:161} INFO - Started process (PID=10036) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:36:18.237+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:36:18.238+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:36:18.238+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:36:18.248+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:36:18.259+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:36:18.259+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:36:18.272+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:36:18.271+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:36:18.296+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.063 seconds
+[2025-07-20T07:36:48.693+0000] {processor.py:161} INFO - Started process (PID=10071) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:36:48.694+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:36:48.694+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:36:48.694+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:36:48.705+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:36:48.912+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:36:48.912+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:36:48.920+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:36:48.920+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:36:48.941+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.252 seconds
+[2025-07-20T07:38:11.996+0000] {processor.py:161} INFO - Started process (PID=10487) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:38:12.019+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:38:12.036+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:38:12.035+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:38:12.292+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:38:12.328+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:38:12.327+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:38:12.373+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:38:12.372+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:38:12.528+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.538 seconds
+[2025-07-20T07:38:42.594+0000] {processor.py:161} INFO - Started process (PID=10529) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:38:42.595+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:38:42.596+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:38:42.595+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:38:42.606+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:38:42.617+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:38:42.617+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:38:42.630+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:38:42.629+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:38:42.673+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.083 seconds
+[2025-07-20T07:39:13.491+0000] {processor.py:161} INFO - Started process (PID=10562) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:39:13.493+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:39:13.494+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:39:13.493+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:39:13.506+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:39:13.607+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:39:13.606+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:39:13.617+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:39:13.617+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:39:13.639+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.151 seconds
+[2025-07-20T07:39:44.470+0000] {processor.py:161} INFO - Started process (PID=10597) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:39:44.471+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:39:44.472+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:39:44.472+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:39:44.481+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:39:44.547+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:39:44.547+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:39:44.559+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:39:44.558+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:39:44.584+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.117 seconds
+[2025-07-20T07:40:14.711+0000] {processor.py:161} INFO - Started process (PID=10632) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:40:14.712+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:40:14.713+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:40:14.713+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:40:14.725+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:40:14.735+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:40:14.735+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:40:14.747+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:40:14.747+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:40:14.769+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.060 seconds
+[2025-07-20T07:40:44.887+0000] {processor.py:161} INFO - Started process (PID=10667) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:40:44.889+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:40:44.892+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:40:44.891+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:40:44.903+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:40:45.062+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:40:45.062+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:40:45.075+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:40:45.075+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:40:45.111+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.228 seconds
+[2025-07-20T07:41:15.850+0000] {processor.py:161} INFO - Started process (PID=10704) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:41:15.852+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:41:15.853+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:41:15.852+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:41:15.867+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:41:15.897+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:41:15.896+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:41:15.910+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:41:15.910+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:41:15.938+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.091 seconds
+[2025-07-20T07:41:46.241+0000] {processor.py:161} INFO - Started process (PID=10737) to work on /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:41:46.242+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda_airflow copy.py for tasks to queue
+[2025-07-20T07:41:46.243+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:41:46.243+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:41:46.254+0000] {processor.py:840} INFO - DAG(s) 'launch_streamlit_dashboard' retrieved from /opt/airflow/dags/eda_airflow copy.py
+[2025-07-20T07:41:46.264+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:41:46.264+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-20T07:41:46.277+0000] {logging_mixin.py:188} INFO - [2025-07-20T07:41:46.277+0000] {dag.py:3823} INFO - Setting next_dagrun for launch_streamlit_dashboard to None, run_after=None
+[2025-07-20T07:41:46.298+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda_airflow copy.py took 0.060 seconds

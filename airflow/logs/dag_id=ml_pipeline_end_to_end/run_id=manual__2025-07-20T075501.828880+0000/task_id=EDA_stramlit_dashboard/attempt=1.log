@@ -1,0 +1,16 @@
+[2025-07-20T07:55:05.422+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ml_pipeline_end_to_end.EDA_stramlit_dashboard manual__2025-07-20T07:55:01.828880+00:00 [queued]>
+[2025-07-20T07:55:05.432+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ml_pipeline_end_to_end.EDA_stramlit_dashboard manual__2025-07-20T07:55:01.828880+00:00 [queued]>
+[2025-07-20T07:55:05.432+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-07-20T07:55:05.446+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): EDA_stramlit_dashboard> on 2025-07-20 07:55:01.828880+00:00
+[2025-07-20T07:55:05.450+0000] {standard_task_runner.py:60} INFO - Started process 11159 to run task
+[2025-07-20T07:55:05.521+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'ml_pipeline_end_to_end', 'EDA_stramlit_dashboard', 'manual__2025-07-20T07:55:01.828880+00:00', '--job-id', '225', '--raw', '--subdir', 'DAGS_FOLDER/conplete_mlops.py', '--cfg-path', '/tmp/tmp58pwhb45']
+[2025-07-20T07:55:05.531+0000] {standard_task_runner.py:88} INFO - Job 225: Subtask EDA_stramlit_dashboard
+[2025-07-20T07:55:05.655+0000] {task_command.py:423} INFO - Running <TaskInstance: ml_pipeline_end_to_end.EDA_stramlit_dashboard manual__2025-07-20T07:55:01.828880+00:00 [running]> on host 2b6a031b4c87
+[2025-07-20T07:55:05.746+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='ml_pipeline_end_to_end' AIRFLOW_CTX_TASK_ID='EDA_stramlit_dashboard' AIRFLOW_CTX_EXECUTION_DATE='2025-07-20T07:55:01.828880+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-20T07:55:01.828880+00:00'
+[2025-07-20T07:55:05.748+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-07-20T07:55:05.749+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'nohup streamlit run /opt/***/data/streamlit_dash.py > /opt/***/data/streamlit.log 2>&1 &']
+[2025-07-20T07:55:05.774+0000] {subprocess.py:86} INFO - Output:
+[2025-07-20T07:55:05.778+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-07-20T07:55:05.804+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=ml_pipeline_end_to_end, task_id=EDA_stramlit_dashboard, execution_date=20250720T075501, start_date=20250720T075505, end_date=20250720T075505
+[2025-07-20T07:55:05.837+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-07-20T07:55:05.866+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

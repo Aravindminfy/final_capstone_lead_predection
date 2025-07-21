@@ -1,0 +1,32 @@
+[2025-07-19T04:44:49.421+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: run_eda_script_pythonnnnnnnnnnn.run_eda manual__2025-07-19T04:42:25.704825+00:00 [queued]>
+[2025-07-19T04:44:49.432+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: run_eda_script_pythonnnnnnnnnnn.run_eda manual__2025-07-19T04:42:25.704825+00:00 [queued]>
+[2025-07-19T04:44:49.432+0000] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2025-07-19T04:44:49.433+0000] {taskinstance.py:1289} INFO - Starting attempt 1 of 2
+[2025-07-19T04:44:49.433+0000] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2025-07-19T04:44:49.457+0000] {taskinstance.py:1309} INFO - Executing <Task(PythonOperator): run_eda> on 2025-07-19 04:42:25.704825+00:00
+[2025-07-19T04:44:49.463+0000] {standard_task_runner.py:55} INFO - Started process 1068 to run task
+[2025-07-19T04:44:49.467+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'run_eda_script_pythonnnnnnnnnnn', 'run_eda', 'manual__2025-07-19T04:42:25.704825+00:00', '--job-id', '21', '--raw', '--subdir', 'DAGS_FOLDER/demo.py', '--cfg-path', '/tmp/tmpd58qj6wa']
+[2025-07-19T04:44:49.469+0000] {standard_task_runner.py:83} INFO - Job 21: Subtask run_eda
+[2025-07-19T04:44:49.538+0000] {task_command.py:389} INFO - Running <TaskInstance: run_eda_script_pythonnnnnnnnnnn.run_eda manual__2025-07-19T04:42:25.704825+00:00 [running]> on host 398705dcf644
+[2025-07-19T04:44:49.660+0000] {taskinstance.py:1516} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=run_eda_script_pythonnnnnnnnnnn
+AIRFLOW_CTX_TASK_ID=run_eda
+AIRFLOW_CTX_EXECUTION_DATE=2025-07-19T04:42:25.704825+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2025-07-19T04:42:25.704825+00:00
+[2025-07-19T04:44:49.663+0000] {taskinstance.py:1776} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/demo.py", line 16, in run_eda_script
+    with open(script_path, 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'airflow\\dags\\eda.py'
+[2025-07-19T04:44:49.677+0000] {taskinstance.py:1327} INFO - Marking task as UP_FOR_RETRY. dag_id=run_eda_script_pythonnnnnnnnnnn, task_id=run_eda, execution_date=20250719T044225, start_date=20250719T044449, end_date=20250719T044449
+[2025-07-19T04:44:49.726+0000] {standard_task_runner.py:100} ERROR - Failed to execute job 21 for task run_eda ([Errno 2] No such file or directory: 'airflow\\dags\\eda.py'; 1068)
+[2025-07-19T04:44:49.764+0000] {local_task_job.py:212} INFO - Task exited with return code 1
+[2025-07-19T04:44:49.780+0000] {taskinstance.py:2596} INFO - 0 downstream tasks scheduled from follow-on schedule check

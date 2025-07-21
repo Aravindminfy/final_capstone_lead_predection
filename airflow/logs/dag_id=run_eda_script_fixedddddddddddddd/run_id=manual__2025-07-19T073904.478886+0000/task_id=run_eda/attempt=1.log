@@ -1,0 +1,26 @@
+[2025-07-19T07:39:37.835+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: run_eda_script_fixedddddddddddddd.run_eda manual__2025-07-19T07:39:04.478886+00:00 [queued]>
+[2025-07-19T07:39:37.847+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: run_eda_script_fixedddddddddddddd.run_eda manual__2025-07-19T07:39:04.478886+00:00 [queued]>
+[2025-07-19T07:39:37.847+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-07-19T07:39:37.888+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): run_eda> on 2025-07-19 07:39:04.478886+00:00
+[2025-07-19T07:39:39.058+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'run_eda_script_fixedddddddddddddd', 'run_eda', 'manual__2025-07-19T07:39:04.478886+00:00', '--job-id', '76', '--raw', '--subdir', 'DAGS_FOLDER/eda_***.py', '--cfg-path', '/tmp/tmp5jyenxe0']
+[2025-07-19T07:39:39.062+0000] {standard_task_runner.py:88} INFO - Job 76: Subtask run_eda
+[2025-07-19T07:39:37.895+0000] {standard_task_runner.py:60} INFO - Started process 4749 to run task
+[2025-07-19T07:39:39.120+0000] {task_command.py:423} INFO - Running <TaskInstance: run_eda_script_fixedddddddddddddd.run_eda manual__2025-07-19T07:39:04.478886+00:00 [running]> on host 2b6a031b4c87
+[2025-07-19T07:39:39.260+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='run_eda_script_fixedddddddddddddd' AIRFLOW_CTX_TASK_ID='run_eda' AIRFLOW_CTX_EXECUTION_DATE='2025-07-19T07:39:04.478886+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-19T07:39:04.478886+00:00'
+[2025-07-19T07:39:54.929+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2025-07-19T07:39:55.909+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/eda_airflow.py", line 11, in run_eda_script
+    exec(f.read(), globals())
+  File "<string>", line 7, in <module>
+ModuleNotFoundError: No module named 'seaborn'
+[2025-07-19T07:39:55.921+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=run_eda_script_fixedddddddddddddd, task_id=run_eda, execution_date=20250719T073904, start_date=20250719T073937, end_date=20250719T073955
+[2025-07-19T07:39:55.941+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 76 for task run_eda (No module named 'seaborn'; 4749)
+[2025-07-19T07:39:55.964+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-07-19T07:39:56.191+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

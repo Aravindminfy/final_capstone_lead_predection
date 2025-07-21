@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h1>🎉 Prediction Results</h1>
+                <p class="mb-0">Your lead scoring predictions are ready!</p>
+            </div>
+            <div class="card-body p-4">
+                
+                <!-- Summary Statistics -->
+                <div class="row mb-4">
+                    <div class="col-md-3">
+                        <div class="stats-card">
+                            <div class="stat-number">{{ summary.total_records }}</div>
+                            <div class="stat-label">Total Leads</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="stats-card">
+                            <div class="stat-number">{{ summary.high_potential }}</div>
+                            <div class="stat-label">High Potential</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="stats-card">
+                            <div class="stat-number">{{ summary.low_potential }}</div>
+                            <div class="stat-label">Low Potential</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="stats-card">
+                            <div class="stat-number">{{ summary.conversion_rate }}%</div>
+                            <div class="stat-label">Conversion Rate</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Sample Predictions -->
+                <div class="mb-4">
+                    <h4>📋 Sample Predictions (Last 5 Rows):</h4>
+                    <div class="table-responsive" style="max-height: 400px; overflow-y: auto;">
+                        {{ sample_predictions|safe }}
+                    </div>
+                </div>
+                
+                <!-- Actions -->
+                <div class="text-center">
+                    <a href="{{ url_for('download_file', filename=filename) }}" 
+                       class="btn btn-success btn-lg me-3">
+                        ⬇️ Download Complete Results
+                    </a>
+                    <a href="{{ url_for('index') }}" class="btn btn-primary btn-lg">
+                        🔄 Upload New File
+                    </a>
+                </div>
+                
+                <!-- Added Columns Info -->
+                <div class="alert alert-info mt-4">
+                    <h6><strong>Added Prediction Columns:</strong></h6>
+                    <ul class="mb-0">
+                        <li><strong>Lead_Score_Prediction:</strong> 0 (Low Potential) or 1 (High Potential)</li>
+                        <li><strong>Conversion_Prediction:</strong> "High Potential" or "Low Potential"</li>
+                        <li><strong>Conversion_Probability:</strong> Probability percentage (0-100%)</li>
+                        <li><strong>Lead_Quality_Score:</strong> "Low", "Medium", or "High"</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

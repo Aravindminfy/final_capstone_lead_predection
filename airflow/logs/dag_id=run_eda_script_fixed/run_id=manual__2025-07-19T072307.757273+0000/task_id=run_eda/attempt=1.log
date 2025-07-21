@@ -1,0 +1,25 @@
+[2025-07-19T07:23:24.199+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: run_eda_script_fixed.run_eda manual__2025-07-19T07:23:07.757273+00:00 [queued]>
+[2025-07-19T07:23:24.208+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: run_eda_script_fixed.run_eda manual__2025-07-19T07:23:07.757273+00:00 [queued]>
+[2025-07-19T07:23:24.208+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-07-19T07:23:24.248+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): run_eda> on 2025-07-19 07:23:07.757273+00:00
+[2025-07-19T07:23:24.254+0000] {standard_task_runner.py:60} INFO - Started process 4053 to run task
+[2025-07-19T07:23:24.257+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'run_eda_script_fixed', 'run_eda', 'manual__2025-07-19T07:23:07.757273+00:00', '--job-id', '71', '--raw', '--subdir', 'DAGS_FOLDER/eda_***.py', '--cfg-path', '/tmp/tmp7cix70iv']
+[2025-07-19T07:23:24.259+0000] {standard_task_runner.py:88} INFO - Job 71: Subtask run_eda
+[2025-07-19T07:23:24.313+0000] {task_command.py:423} INFO - Running <TaskInstance: run_eda_script_fixed.run_eda manual__2025-07-19T07:23:07.757273+00:00 [running]> on host 2b6a031b4c87
+[2025-07-19T07:23:24.479+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='run_eda_script_fixed' AIRFLOW_CTX_TASK_ID='run_eda' AIRFLOW_CTX_EXECUTION_DATE='2025-07-19T07:23:07.757273+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-19T07:23:07.757273+00:00'
+[2025-07-19T07:23:25.819+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/eda_airflow.py", line 15, in run_eda_script
+    exec(f.read(), globals())
+  File "<string>", line 6, in <module>
+ModuleNotFoundError: No module named 'matplotlib'
+[2025-07-19T07:23:25.829+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=run_eda_script_fixed, task_id=run_eda, execution_date=20250719T072307, start_date=20250719T072324, end_date=20250719T072325
+[2025-07-19T07:23:25.843+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 71 for task run_eda (No module named 'matplotlib'; 4053)
+[2025-07-19T07:23:25.877+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-07-19T07:23:25.892+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

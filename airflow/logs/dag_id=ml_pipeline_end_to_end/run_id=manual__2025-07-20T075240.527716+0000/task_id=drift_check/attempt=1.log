@@ -1,0 +1,71 @@
+[2025-07-20T07:52:58.388+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ml_pipeline_end_to_end.drift_check manual__2025-07-20T07:52:40.527716+00:00 [queued]>
+[2025-07-20T07:52:58.401+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ml_pipeline_end_to_end.drift_check manual__2025-07-20T07:52:40.527716+00:00 [queued]>
+[2025-07-20T07:52:58.402+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-07-20T07:52:58.423+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): drift_check> on 2025-07-20 07:52:40.527716+00:00
+[2025-07-20T07:52:58.430+0000] {standard_task_runner.py:60} INFO - Started process 11093 to run task
+[2025-07-20T07:52:58.438+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'ml_pipeline_end_to_end', 'drift_check', 'manual__2025-07-20T07:52:40.527716+00:00', '--job-id', '222', '--raw', '--subdir', 'DAGS_FOLDER/conplete_mlops.py', '--cfg-path', '/tmp/tmpy5h9datb']
+[2025-07-20T07:52:58.441+0000] {standard_task_runner.py:88} INFO - Job 222: Subtask drift_check
+[2025-07-20T07:52:58.590+0000] {task_command.py:423} INFO - Running <TaskInstance: ml_pipeline_end_to_end.drift_check manual__2025-07-20T07:52:40.527716+00:00 [running]> on host 2b6a031b4c87
+[2025-07-20T07:52:58.673+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='ml_pipeline_end_to_end' AIRFLOW_CTX_TASK_ID='drift_check' AIRFLOW_CTX_EXECUTION_DATE='2025-07-20T07:52:40.527716+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-20T07:52:40.527716+00:00'
+[2025-07-20T07:52:58.675+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-07-20T07:52:58.705+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python /opt/***/dags/data_drift_check.PY']
+[2025-07-20T07:52:58.744+0000] {subprocess.py:86} INFO - Output:
+[2025-07-20T07:53:10.495+0000] {subprocess.py:93} INFO - /home/***/.local/lib/python3.8/site-packages/scipy/stats/_stats_py.py:7407: RuntimeWarning: divide by zero encountered in divide
+[2025-07-20T07:53:10.496+0000] {subprocess.py:93} INFO -   terms = (f_obs_float - f_exp)**2 / f_exp
+[2025-07-20T07:53:10.497+0000] {subprocess.py:93} INFO - /home/***/.local/lib/python3.8/site-packages/scipy/stats/_stats_py.py:7407: RuntimeWarning: divide by zero encountered in divide
+[2025-07-20T07:53:10.498+0000] {subprocess.py:93} INFO -   terms = (f_obs_float - f_exp)**2 / f_exp
+[2025-07-20T07:53:10.498+0000] {subprocess.py:93} INFO - /home/***/.local/lib/python3.8/site-packages/scipy/stats/_stats_py.py:7407: RuntimeWarning: divide by zero encountered in divide
+[2025-07-20T07:53:10.499+0000] {subprocess.py:93} INFO -   terms = (f_obs_float - f_exp)**2 / f_exp
+[2025-07-20T07:53:10.499+0000] {subprocess.py:93} INFO - /home/***/.local/lib/python3.8/site-packages/scipy/stats/_stats_py.py:7407: RuntimeWarning: divide by zero encountered in divide
+[2025-07-20T07:53:10.500+0000] {subprocess.py:93} INFO -   terms = (f_obs_float - f_exp)**2 / f_exp
+[2025-07-20T07:53:10.501+0000] {subprocess.py:93} INFO - /home/***/.local/lib/python3.8/site-packages/scipy/stats/_stats_py.py:7407: RuntimeWarning: divide by zero encountered in divide
+[2025-07-20T07:53:10.502+0000] {subprocess.py:93} INFO -   terms = (f_obs_float - f_exp)**2 / f_exp
+[2025-07-20T07:53:10.502+0000] {subprocess.py:93} INFO - /home/***/.local/lib/python3.8/site-packages/scipy/stats/_stats_py.py:7407: RuntimeWarning: divide by zero encountered in divide
+[2025-07-20T07:53:10.503+0000] {subprocess.py:93} INFO -   terms = (f_obs_float - f_exp)**2 / f_exp
+[2025-07-20T07:53:10.503+0000] {subprocess.py:93} INFO - /home/***/.local/lib/python3.8/site-packages/scipy/stats/_stats_py.py:7407: RuntimeWarning: divide by zero encountered in divide
+[2025-07-20T07:53:10.504+0000] {subprocess.py:93} INFO -   terms = (f_obs_float - f_exp)**2 / f_exp
+[2025-07-20T07:53:10.504+0000] {subprocess.py:93} INFO - ============================================================
+[2025-07-20T07:53:10.505+0000] {subprocess.py:93} INFO - STARTING DRIFT DETECTION PROCESS
+[2025-07-20T07:53:10.505+0000] {subprocess.py:93} INFO - ============================================================
+[2025-07-20T07:53:10.506+0000] {subprocess.py:93} INFO - Loading datasets...
+[2025-07-20T07:53:10.506+0000] {subprocess.py:93} INFO - Input directory: /opt/***/data
+[2025-07-20T07:53:10.506+0000] {subprocess.py:93} INFO - Output files will be saved in: /opt/***/data
+[2025-07-20T07:53:10.507+0000] {subprocess.py:93} INFO - Reference data shape: (9240, 37)
+[2025-07-20T07:53:10.507+0000] {subprocess.py:93} INFO - Current data shape: (5, 37)
+[2025-07-20T07:53:10.507+0000] {subprocess.py:93} INFO - Common columns: 37 out of 37 reference columns
+[2025-07-20T07:53:10.507+0000] {subprocess.py:93} INFO - Numerical features (7): ['Lead Number', 'Converted', 'TotalVisits', 'Total Time Spent on Website', 'Page Views Per Visit', 'Asymmetrique Activity Score', 'Asymmetrique Profile Score']
+[2025-07-20T07:53:10.508+0000] {subprocess.py:93} INFO - Categorical features (30): ['Prospect ID', 'Lead Origin', 'Lead Source', 'Do Not Email', 'Do Not Call', 'Last Activity', 'Country', 'Specialization', 'How did you hear about X Education', 'What is your current occupation', 'What matters most to you in choosing a course', 'Search', 'Magazine', 'Newspaper Article', 'X Education Forums', 'Newspaper', 'Digital Advertisement', 'Through Recommendations', 'Receive More Updates About Our Courses', 'Tags', 'Lead Quality', 'Update me on Supply Chain Content', 'Get updates on DM Content', 'Lead Profile', 'City', 'Asymmetrique Activity Index', 'Asymmetrique Profile Index', 'I agree to pay the amount through cheque', 'A free copy of Mastering The Interview', 'Last Notable Activity']
+[2025-07-20T07:53:10.508+0000] {subprocess.py:93} INFO - === BASIC STATISTICS ===
+[2025-07-20T07:53:10.509+0000] {subprocess.py:93} INFO - Reference dataset: 9240 rows, 37 columns
+[2025-07-20T07:53:10.509+0000] {subprocess.py:93} INFO - Current dataset: 5 rows, 37 columns
+[2025-07-20T07:53:10.509+0000] {subprocess.py:93} INFO - Reference missing values: 41039 (12.00%)
+[2025-07-20T07:53:10.510+0000] {subprocess.py:93} INFO - Current missing values: 1 (0.54%)
+[2025-07-20T07:53:10.510+0000] {subprocess.py:93} INFO - Data type changes detected: ['TotalVisits: float64 -> int64', 'Page Views Per Visit: float64 -> int64', 'Asymmetrique Activity Score: float64 -> int64', 'Asymmetrique Profile Score: float64 -> int64']
+[2025-07-20T07:53:10.510+0000] {subprocess.py:93} INFO - 
+[2025-07-20T07:53:10.511+0000] {subprocess.py:93} INFO - === DRIFT DETECTION RESULTS ===
+[2025-07-20T07:53:10.511+0000] {subprocess.py:93} INFO - Running drift detection using psi method...
+[2025-07-20T07:53:10.511+0000] {subprocess.py:93} INFO - Error in drift detection with psi: Stattest psi isn't applicable to feature of type text. Available feature types: [<ColumnType.Categorical: 'cat'>, <ColumnType.Numerical: 'num'>]
+[2025-07-20T07:53:10.512+0000] {subprocess.py:93} INFO - ✅ No drift detected using PSI method
+[2025-07-20T07:53:10.512+0000] {subprocess.py:93} INFO - Running drift detection using ks method...
+[2025-07-20T07:53:10.512+0000] {subprocess.py:93} INFO - Error in drift detection with ks: Stattest ks isn't applicable to feature of type cat. Available feature types: [<ColumnType.Numerical: 'num'>]
+[2025-07-20T07:53:10.513+0000] {subprocess.py:93} INFO - ✅ No drift detected using KS method
+[2025-07-20T07:53:10.513+0000] {subprocess.py:93} INFO - Running drift detection using chisquare method...
+[2025-07-20T07:53:10.513+0000] {subprocess.py:93} INFO - Error in drift detection with chisquare: Stattest chisquare isn't applicable to feature of type text. Available feature types: [<ColumnType.Categorical: 'cat'>]
+[2025-07-20T07:53:10.514+0000] {subprocess.py:93} INFO - ✅ No drift detected using CHISQUARE method
+[2025-07-20T07:53:10.514+0000] {subprocess.py:93} INFO - Running drift detection using wasserstein method...
+[2025-07-20T07:53:10.514+0000] {subprocess.py:93} INFO - Error in drift detection with wasserstein: Stattest wasserstein isn't applicable to feature of type cat. Available feature types: [<ColumnType.Numerical: 'num'>]
+[2025-07-20T07:53:10.514+0000] {subprocess.py:93} INFO - ✅ No drift detected using WASSERSTEIN method
+[2025-07-20T07:53:10.515+0000] {subprocess.py:93} INFO - 
+[2025-07-20T07:53:10.515+0000] {subprocess.py:93} INFO - === FINAL DRIFT DETECTION SUMMARY ===
+[2025-07-20T07:53:10.515+0000] {subprocess.py:93} INFO - Overall drift status: ✅ NO DRIFT DETECTED
+[2025-07-20T07:53:10.516+0000] {subprocess.py:93} INFO - Methods results: {'psi': False, 'ks': False, 'chisquare': False, 'wasserstein': False}
+[2025-07-20T07:53:10.516+0000] {subprocess.py:93} INFO - Drift threshold used: 0.3
+[2025-07-20T07:53:10.517+0000] {subprocess.py:93} INFO - Saving drift detection results...
+[2025-07-20T07:53:10.517+0000] {subprocess.py:93} INFO - Drift flag saved to: /opt/***/data/drift_detected.txt
+[2025-07-20T07:53:10.517+0000] {subprocess.py:93} INFO - Status flag saved to: /opt/***/data/drift_status.flag
+[2025-07-20T07:53:10.518+0000] {subprocess.py:93} INFO - ✅ System stable - no drift detected
+[2025-07-20T07:53:10.518+0000] {subprocess.py:93} INFO - Drift detection process completed successfully
+[2025-07-20T07:53:10.902+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-07-20T07:53:10.974+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=ml_pipeline_end_to_end, task_id=drift_check, execution_date=20250720T075240, start_date=20250720T075258, end_date=20250720T075310
+[2025-07-20T07:53:11.027+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-07-20T07:53:11.051+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

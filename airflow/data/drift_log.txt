@@ -1,0 +1,278 @@
+[2025-07-20 12:09:23] ============================================================
+[2025-07-20 12:09:23] STARTING DRIFT DETECTION PROCESS
+[2025-07-20 12:09:23] ============================================================
+[2025-07-20 12:09:23] Loading datasets...
+[2025-07-20 12:09:23] Input directory: C:\Users\Minfy.DESKTOP-3E50D5N\Music\customer_lead\airflow\data
+[2025-07-20 12:09:23] Output files will be saved in: C:\Users\Minfy.DESKTOP-3E50D5N\Music\customer_lead\airflow\data
+[2025-07-20 12:09:24] Reference data shape: (9240, 37)
+[2025-07-20 12:09:24] Current data shape: (5, 37)
+[2025-07-20 12:09:24] Common columns: 37 out of 37 reference columns
+[2025-07-20 12:09:24] Numerical features (7): ['Lead Number', 'Converted', 'TotalVisits', 'Total Time Spent on Website', 'Page Views Per Visit', 'Asymmetrique Activity Score', 'Asymmetrique Profile Score']
+[2025-07-20 12:09:24] Categorical features (30): ['Prospect ID', 'Lead Origin', 'Lead Source', 'Do Not Email', 'Do Not Call', 'Last Activity', 'Country', 'Specialization', 'How did you hear about X Education', 'What is your current occupation', 'What matters most to you in choosing a course', 'Search', 'Magazine', 'Newspaper Article', 'X Education Forums', 'Newspaper', 'Digital Advertisement', 'Through Recommendations', 'Receive More Updates About Our Courses', 'Tags', 'Lead Quality', 'Update me on Supply Chain Content', 'Get updates on DM Content', 'Lead Profile', 'City', 'Asymmetrique Activity Index', 'Asymmetrique Profile Index', 'I agree to pay the amount through cheque', 'A free copy of Mastering The Interview', 'Last Notable Activity']
+[2025-07-20 12:09:24] === BASIC STATISTICS ===
+[2025-07-20 12:09:24] Reference dataset: 9240 rows, 37 columns
+[2025-07-20 12:09:24] Current dataset: 5 rows, 37 columns
+[2025-07-20 12:09:24] Reference missing values: 41039 (12.00%)
+[2025-07-20 12:09:24] Current missing values: 1 (0.54%)
+[2025-07-20 12:09:24] Data type changes detected: ['TotalVisits: float64 -> int64', 'Page Views Per Visit: float64 -> int64', 'Asymmetrique Activity Score: float64 -> int64', 'Asymmetrique Profile Score: float64 -> int64']
+[2025-07-20 12:09:24] 
+=== DRIFT DETECTION RESULTS ===
+[2025-07-20 12:09:24] Running drift detection using psi method...
+[2025-07-20 12:09:26] Error in drift detection with psi: Stattest psi isn't applicable to feature of type text. Available feature types: [<ColumnType.Categorical: 'cat'>, <ColumnType.Numerical: 'num'>]
+[2025-07-20 12:09:26] ✅ No drift detected using PSI method
+[2025-07-20 12:09:26] Running drift detection using ks method...
+[2025-07-20 12:09:26] Error in drift detection with ks: Stattest ks isn't applicable to feature of type cat. Available feature types: [<ColumnType.Numerical: 'num'>]
+[2025-07-20 12:09:26] ✅ No drift detected using KS method
+[2025-07-20 12:09:26] Running drift detection using chisquare method...
+[2025-07-20 12:09:28] Error in drift detection with chisquare: Stattest chisquare isn't applicable to feature of type text. Available feature types: [<ColumnType.Categorical: 'cat'>]
+[2025-07-20 12:09:28] ✅ No drift detected using CHISQUARE method
+[2025-07-20 12:09:28] Running drift detection using wasserstein method...
+[2025-07-20 12:09:28] Error in drift detection with wasserstein: Stattest wasserstein isn't applicable to feature of type cat. Available feature types: [<ColumnType.Numerical: 'num'>]
+[2025-07-20 12:09:28] ✅ No drift detected using WASSERSTEIN method
+[2025-07-20 12:09:28] 
+=== FINAL DRIFT DETECTION SUMMARY ===
+[2025-07-20 12:09:28] Overall drift status: ✅ NO DRIFT DETECTED
+[2025-07-20 12:09:28] Methods results: {'psi': False, 'ks': False, 'chisquare': False, 'wasserstein': False}
+[2025-07-20 12:09:28] Drift threshold used: 0.3
+[2025-07-20 12:09:28] Saving drift detection results...
+[2025-07-20 12:09:28] Drift flag saved to: C:\Users\Minfy.DESKTOP-3E50D5N\Music\customer_lead\airflow\data\drift_detected.txt
+[2025-07-20 12:09:28] Status flag saved to: C:\Users\Minfy.DESKTOP-3E50D5N\Music\customer_lead\airflow\data\drift_status.flag
+[2025-07-20 12:09:28] ✅ System stable - no drift detected
+[2025-07-20 12:09:28] Drift detection process completed successfully
+[2025-07-20 07:28:21] ============================================================
+[2025-07-20 07:28:21] STARTING DRIFT DETECTION PROCESS
+[2025-07-20 07:28:21] ============================================================
+[2025-07-20 07:28:21] Loading datasets...
+[2025-07-20 07:28:21] Input directory: /opt/airflow/data
+[2025-07-20 07:28:21] Output files will be saved in: /opt/airflow/data
+[2025-07-20 07:28:21] Error loading data: [Errno 2] No such file or directory: '/opt/airflow/data\\cheack.csv'
+[2025-07-20 07:28:21] ❌ Error in drift detection process: [Errno 2] No such file or directory: '/opt/airflow/data\\cheack.csv'
+[2025-07-20 07:30:26] ============================================================
+[2025-07-20 07:30:26] STARTING DRIFT DETECTION PROCESS
+[2025-07-20 07:30:26] ============================================================
+[2025-07-20 07:30:26] Loading datasets...
+[2025-07-20 07:30:26] Input directory: /opt/airflow/data
+[2025-07-20 07:30:26] Output files will be saved in: /opt/airflow/data
+[2025-07-20 07:30:26] Error loading data: [Errno 2] No such file or directory: '/opt/airflow/data\\cheack.csv'
+[2025-07-20 07:30:26] ❌ Error in drift detection process: [Errno 2] No such file or directory: '/opt/airflow/data\\cheack.csv'
+[2025-07-20 07:31:56] ============================================================
+[2025-07-20 07:31:56] STARTING DRIFT DETECTION PROCESS
+[2025-07-20 07:31:56] ============================================================
+[2025-07-20 07:31:56] Loading datasets...
+[2025-07-20 07:31:56] Input directory: /opt/airflow/data
+[2025-07-20 07:31:56] Output files will be saved in: /opt/airflow/data
+[2025-07-20 07:31:56] Error loading data: [Errno 2] No such file or directory: '/opt/airflow/data/cheack.csv'
+[2025-07-20 07:31:56] ❌ Error in drift detection process: [Errno 2] No such file or directory: '/opt/airflow/data/cheack.csv'
+[2025-07-20 07:35:01] ============================================================
+[2025-07-20 07:35:01] STARTING DRIFT DETECTION PROCESS
+[2025-07-20 07:35:01] ============================================================
+[2025-07-20 07:35:01] Loading datasets...
+[2025-07-20 07:35:01] Input directory: /opt/airflow/data
+[2025-07-20 07:35:01] Output files will be saved in: /opt/airflow/data
+[2025-07-20 07:35:02] Error loading data: [Errno 2] No such file or directory: '/opt/airflow/data/cheack.csv'
+[2025-07-20 07:35:02] ❌ Error in drift detection process: [Errno 2] No such file or directory: '/opt/airflow/data/cheack.csv'
+[2025-07-20 07:36:58] ============================================================
+[2025-07-20 07:36:58] STARTING DRIFT DETECTION PROCESS
+[2025-07-20 07:36:58] ============================================================
+[2025-07-20 07:36:58] Loading datasets...
+[2025-07-20 07:36:58] Input directory: /opt/airflow/data
+[2025-07-20 07:36:58] Output files will be saved in: /opt/airflow/data
+[2025-07-20 07:36:58] Reference data shape: (9240, 37)
+[2025-07-20 07:36:58] Current data shape: (5, 37)
+[2025-07-20 07:36:58] Common columns: 37 out of 37 reference columns
+[2025-07-20 07:36:58] Numerical features (7): ['Lead Number', 'Converted', 'TotalVisits', 'Total Time Spent on Website', 'Page Views Per Visit', 'Asymmetrique Activity Score', 'Asymmetrique Profile Score']
+[2025-07-20 07:36:58] Categorical features (30): ['Prospect ID', 'Lead Origin', 'Lead Source', 'Do Not Email', 'Do Not Call', 'Last Activity', 'Country', 'Specialization', 'How did you hear about X Education', 'What is your current occupation', 'What matters most to you in choosing a course', 'Search', 'Magazine', 'Newspaper Article', 'X Education Forums', 'Newspaper', 'Digital Advertisement', 'Through Recommendations', 'Receive More Updates About Our Courses', 'Tags', 'Lead Quality', 'Update me on Supply Chain Content', 'Get updates on DM Content', 'Lead Profile', 'City', 'Asymmetrique Activity Index', 'Asymmetrique Profile Index', 'I agree to pay the amount through cheque', 'A free copy of Mastering The Interview', 'Last Notable Activity']
+[2025-07-20 07:36:58] === BASIC STATISTICS ===
+[2025-07-20 07:36:58] Reference dataset: 9240 rows, 37 columns
+[2025-07-20 07:36:58] Current dataset: 5 rows, 37 columns
+[2025-07-20 07:36:58] Reference missing values: 41039 (12.00%)
+[2025-07-20 07:36:58] Current missing values: 1 (0.54%)
+[2025-07-20 07:36:58] Data type changes detected: ['TotalVisits: float64 -> int64', 'Page Views Per Visit: float64 -> int64', 'Asymmetrique Activity Score: float64 -> int64', 'Asymmetrique Profile Score: float64 -> int64']
+[2025-07-20 07:36:58] 
+=== DRIFT DETECTION RESULTS ===
+[2025-07-20 07:36:58] Running drift detection using psi method...
+[2025-07-20 07:37:04] Error in drift detection with psi: Stattest psi isn't applicable to feature of type text. Available feature types: [<ColumnType.Categorical: 'cat'>, <ColumnType.Numerical: 'num'>]
+[2025-07-20 07:37:04] ✅ No drift detected using PSI method
+[2025-07-20 07:37:04] Running drift detection using ks method...
+[2025-07-20 07:37:05] Error in drift detection with ks: Stattest ks isn't applicable to feature of type cat. Available feature types: [<ColumnType.Numerical: 'num'>]
+[2025-07-20 07:37:05] ✅ No drift detected using KS method
+[2025-07-20 07:37:05] Running drift detection using chisquare method...
+[2025-07-20 07:37:53] Error in drift detection with chisquare: Stattest chisquare isn't applicable to feature of type text. Available feature types: [<ColumnType.Categorical: 'cat'>]
+[2025-07-20 07:37:53] ✅ No drift detected using CHISQUARE method
+[2025-07-20 07:37:53] Running drift detection using wasserstein method...
+[2025-07-20 07:37:53] Error in drift detection with wasserstein: Stattest wasserstein isn't applicable to feature of type cat. Available feature types: [<ColumnType.Numerical: 'num'>]
+[2025-07-20 07:37:53] ✅ No drift detected using WASSERSTEIN method
+[2025-07-20 07:37:53] 
+=== FINAL DRIFT DETECTION SUMMARY ===
+[2025-07-20 07:37:53] Overall drift status: ✅ NO DRIFT DETECTED
+[2025-07-20 07:37:53] Methods results: {'psi': False, 'ks': False, 'chisquare': False, 'wasserstein': False}
+[2025-07-20 07:37:53] Drift threshold used: 0.3
+[2025-07-20 07:37:53] Saving drift detection results...
+[2025-07-20 07:37:53] Drift flag saved to: /opt/airflow/data/drift_detected.txt
+[2025-07-20 07:37:53] Status flag saved to: /opt/airflow/data/drift_status.flag
+[2025-07-20 07:37:53] ✅ System stable - no drift detected
+[2025-07-20 07:37:53] Drift detection process completed successfully
+[2025-07-20 07:50:11] ============================================================
+[2025-07-20 07:50:11] STARTING DRIFT DETECTION PROCESS
+[2025-07-20 07:50:11] ============================================================
+[2025-07-20 07:50:11] Loading datasets...
+[2025-07-20 07:50:11] Input directory: /opt/airflow/data
+[2025-07-20 07:50:11] Output files will be saved in: /opt/airflow/data
+[2025-07-20 07:50:11] Reference data shape: (9240, 37)
+[2025-07-20 07:50:11] Current data shape: (5, 37)
+[2025-07-20 07:50:11] Common columns: 37 out of 37 reference columns
+[2025-07-20 07:50:11] Numerical features (7): ['Lead Number', 'Converted', 'TotalVisits', 'Total Time Spent on Website', 'Page Views Per Visit', 'Asymmetrique Activity Score', 'Asymmetrique Profile Score']
+[2025-07-20 07:50:11] Categorical features (30): ['Prospect ID', 'Lead Origin', 'Lead Source', 'Do Not Email', 'Do Not Call', 'Last Activity', 'Country', 'Specialization', 'How did you hear about X Education', 'What is your current occupation', 'What matters most to you in choosing a course', 'Search', 'Magazine', 'Newspaper Article', 'X Education Forums', 'Newspaper', 'Digital Advertisement', 'Through Recommendations', 'Receive More Updates About Our Courses', 'Tags', 'Lead Quality', 'Update me on Supply Chain Content', 'Get updates on DM Content', 'Lead Profile', 'City', 'Asymmetrique Activity Index', 'Asymmetrique Profile Index', 'I agree to pay the amount through cheque', 'A free copy of Mastering The Interview', 'Last Notable Activity']
+[2025-07-20 07:50:11] === BASIC STATISTICS ===
+[2025-07-20 07:50:11] Reference dataset: 9240 rows, 37 columns
+[2025-07-20 07:50:11] Current dataset: 5 rows, 37 columns
+[2025-07-20 07:50:11] Reference missing values: 41039 (12.00%)
+[2025-07-20 07:50:11] Current missing values: 1 (0.54%)
+[2025-07-20 07:50:11] Data type changes detected: ['TotalVisits: float64 -> int64', 'Page Views Per Visit: float64 -> int64', 'Asymmetrique Activity Score: float64 -> int64', 'Asymmetrique Profile Score: float64 -> int64']
+[2025-07-20 07:50:11] 
+=== DRIFT DETECTION RESULTS ===
+[2025-07-20 07:50:11] Running drift detection using psi method...
+[2025-07-20 07:50:16] Error in drift detection with psi: Stattest psi isn't applicable to feature of type text. Available feature types: [<ColumnType.Categorical: 'cat'>, <ColumnType.Numerical: 'num'>]
+[2025-07-20 07:50:16] ✅ No drift detected using PSI method
+[2025-07-20 07:50:16] Running drift detection using ks method...
+[2025-07-20 07:50:16] Error in drift detection with ks: Stattest ks isn't applicable to feature of type cat. Available feature types: [<ColumnType.Numerical: 'num'>]
+[2025-07-20 07:50:16] ✅ No drift detected using KS method
+[2025-07-20 07:50:16] Running drift detection using chisquare method...
+[2025-07-20 07:50:20] Error in drift detection with chisquare: Stattest chisquare isn't applicable to feature of type text. Available feature types: [<ColumnType.Categorical: 'cat'>]
+[2025-07-20 07:50:20] ✅ No drift detected using CHISQUARE method
+[2025-07-20 07:50:20] Running drift detection using wasserstein method...
+[2025-07-20 07:50:20] Error in drift detection with wasserstein: Stattest wasserstein isn't applicable to feature of type cat. Available feature types: [<ColumnType.Numerical: 'num'>]
+[2025-07-20 07:50:20] ✅ No drift detected using WASSERSTEIN method
+[2025-07-20 07:50:20] 
+=== FINAL DRIFT DETECTION SUMMARY ===
+[2025-07-20 07:50:20] Overall drift status: ✅ NO DRIFT DETECTED
+[2025-07-20 07:50:20] Methods results: {'psi': False, 'ks': False, 'chisquare': False, 'wasserstein': False}
+[2025-07-20 07:50:20] Drift threshold used: 0.3
+[2025-07-20 07:50:20] Saving drift detection results...
+[2025-07-20 07:50:20] Drift flag saved to: /opt/airflow/data/drift_detected.txt
+[2025-07-20 07:50:20] Status flag saved to: /opt/airflow/data/drift_status.flag
+[2025-07-20 07:50:20] ✅ System stable - no drift detected
+[2025-07-20 07:50:20] Drift detection process completed successfully
+[2025-07-20 07:53:02] ============================================================
+[2025-07-20 07:53:02] STARTING DRIFT DETECTION PROCESS
+[2025-07-20 07:53:02] ============================================================
+[2025-07-20 07:53:02] Loading datasets...
+[2025-07-20 07:53:02] Input directory: /opt/airflow/data
+[2025-07-20 07:53:02] Output files will be saved in: /opt/airflow/data
+[2025-07-20 07:53:02] Reference data shape: (9240, 37)
+[2025-07-20 07:53:02] Current data shape: (5, 37)
+[2025-07-20 07:53:02] Common columns: 37 out of 37 reference columns
+[2025-07-20 07:53:02] Numerical features (7): ['Lead Number', 'Converted', 'TotalVisits', 'Total Time Spent on Website', 'Page Views Per Visit', 'Asymmetrique Activity Score', 'Asymmetrique Profile Score']
+[2025-07-20 07:53:02] Categorical features (30): ['Prospect ID', 'Lead Origin', 'Lead Source', 'Do Not Email', 'Do Not Call', 'Last Activity', 'Country', 'Specialization', 'How did you hear about X Education', 'What is your current occupation', 'What matters most to you in choosing a course', 'Search', 'Magazine', 'Newspaper Article', 'X Education Forums', 'Newspaper', 'Digital Advertisement', 'Through Recommendations', 'Receive More Updates About Our Courses', 'Tags', 'Lead Quality', 'Update me on Supply Chain Content', 'Get updates on DM Content', 'Lead Profile', 'City', 'Asymmetrique Activity Index', 'Asymmetrique Profile Index', 'I agree to pay the amount through cheque', 'A free copy of Mastering The Interview', 'Last Notable Activity']
+[2025-07-20 07:53:02] === BASIC STATISTICS ===
+[2025-07-20 07:53:02] Reference dataset: 9240 rows, 37 columns
+[2025-07-20 07:53:02] Current dataset: 5 rows, 37 columns
+[2025-07-20 07:53:02] Reference missing values: 41039 (12.00%)
+[2025-07-20 07:53:02] Current missing values: 1 (0.54%)
+[2025-07-20 07:53:02] Data type changes detected: ['TotalVisits: float64 -> int64', 'Page Views Per Visit: float64 -> int64', 'Asymmetrique Activity Score: float64 -> int64', 'Asymmetrique Profile Score: float64 -> int64']
+[2025-07-20 07:53:02] 
+=== DRIFT DETECTION RESULTS ===
+[2025-07-20 07:53:02] Running drift detection using psi method...
+[2025-07-20 07:53:06] Error in drift detection with psi: Stattest psi isn't applicable to feature of type text. Available feature types: [<ColumnType.Categorical: 'cat'>, <ColumnType.Numerical: 'num'>]
+[2025-07-20 07:53:06] ✅ No drift detected using PSI method
+[2025-07-20 07:53:06] Running drift detection using ks method...
+[2025-07-20 07:53:06] Error in drift detection with ks: Stattest ks isn't applicable to feature of type cat. Available feature types: [<ColumnType.Numerical: 'num'>]
+[2025-07-20 07:53:06] ✅ No drift detected using KS method
+[2025-07-20 07:53:06] Running drift detection using chisquare method...
+[2025-07-20 07:53:10] Error in drift detection with chisquare: Stattest chisquare isn't applicable to feature of type text. Available feature types: [<ColumnType.Categorical: 'cat'>]
+[2025-07-20 07:53:10] ✅ No drift detected using CHISQUARE method
+[2025-07-20 07:53:10] Running drift detection using wasserstein method...
+[2025-07-20 07:53:10] Error in drift detection with wasserstein: Stattest wasserstein isn't applicable to feature of type cat. Available feature types: [<ColumnType.Numerical: 'num'>]
+[2025-07-20 07:53:10] ✅ No drift detected using WASSERSTEIN method
+[2025-07-20 07:53:10] 
+=== FINAL DRIFT DETECTION SUMMARY ===
+[2025-07-20 07:53:10] Overall drift status: ✅ NO DRIFT DETECTED
+[2025-07-20 07:53:10] Methods results: {'psi': False, 'ks': False, 'chisquare': False, 'wasserstein': False}
+[2025-07-20 07:53:10] Drift threshold used: 0.3
+[2025-07-20 07:53:10] Saving drift detection results...
+[2025-07-20 07:53:10] Drift flag saved to: /opt/airflow/data/drift_detected.txt
+[2025-07-20 07:53:10] Status flag saved to: /opt/airflow/data/drift_status.flag
+[2025-07-20 07:53:10] ✅ System stable - no drift detected
+[2025-07-20 07:53:10] Drift detection process completed successfully
+[2025-07-20 07:55:10] ============================================================
+[2025-07-20 07:55:10] STARTING DRIFT DETECTION PROCESS
+[2025-07-20 07:55:10] ============================================================
+[2025-07-20 07:55:10] Loading datasets...
+[2025-07-20 07:55:10] Input directory: /opt/airflow/data
+[2025-07-20 07:55:10] Output files will be saved in: /opt/airflow/data
+[2025-07-20 07:55:10] Reference data shape: (9240, 37)
+[2025-07-20 07:55:10] Current data shape: (5, 37)
+[2025-07-20 07:55:10] Common columns: 37 out of 37 reference columns
+[2025-07-20 07:55:10] Numerical features (7): ['Lead Number', 'Converted', 'TotalVisits', 'Total Time Spent on Website', 'Page Views Per Visit', 'Asymmetrique Activity Score', 'Asymmetrique Profile Score']
+[2025-07-20 07:55:10] Categorical features (30): ['Prospect ID', 'Lead Origin', 'Lead Source', 'Do Not Email', 'Do Not Call', 'Last Activity', 'Country', 'Specialization', 'How did you hear about X Education', 'What is your current occupation', 'What matters most to you in choosing a course', 'Search', 'Magazine', 'Newspaper Article', 'X Education Forums', 'Newspaper', 'Digital Advertisement', 'Through Recommendations', 'Receive More Updates About Our Courses', 'Tags', 'Lead Quality', 'Update me on Supply Chain Content', 'Get updates on DM Content', 'Lead Profile', 'City', 'Asymmetrique Activity Index', 'Asymmetrique Profile Index', 'I agree to pay the amount through cheque', 'A free copy of Mastering The Interview', 'Last Notable Activity']
+[2025-07-20 07:55:10] === BASIC STATISTICS ===
+[2025-07-20 07:55:10] Reference dataset: 9240 rows, 37 columns
+[2025-07-20 07:55:10] Current dataset: 5 rows, 37 columns
+[2025-07-20 07:55:10] Reference missing values: 41039 (12.00%)
+[2025-07-20 07:55:10] Current missing values: 1 (0.54%)
+[2025-07-20 07:55:10] Data type changes detected: ['TotalVisits: float64 -> int64', 'Page Views Per Visit: float64 -> int64', 'Asymmetrique Activity Score: float64 -> int64', 'Asymmetrique Profile Score: float64 -> int64']
+[2025-07-20 07:55:10] 
+=== DRIFT DETECTION RESULTS ===
+[2025-07-20 07:55:10] Running drift detection using psi method...
+[2025-07-20 07:55:14] Error in drift detection with psi: Stattest psi isn't applicable to feature of type text. Available feature types: [<ColumnType.Categorical: 'cat'>, <ColumnType.Numerical: 'num'>]
+[2025-07-20 07:55:14] ✅ No drift detected using PSI method
+[2025-07-20 07:55:14] Running drift detection using ks method...
+[2025-07-20 07:55:15] Error in drift detection with ks: Stattest ks isn't applicable to feature of type cat. Available feature types: [<ColumnType.Numerical: 'num'>]
+[2025-07-20 07:55:15] ✅ No drift detected using KS method
+[2025-07-20 07:55:15] Running drift detection using chisquare method...
+[2025-07-20 07:55:18] Error in drift detection with chisquare: Stattest chisquare isn't applicable to feature of type text. Available feature types: [<ColumnType.Categorical: 'cat'>]
+[2025-07-20 07:55:18] ✅ No drift detected using CHISQUARE method
+[2025-07-20 07:55:18] Running drift detection using wasserstein method...
+[2025-07-20 07:55:19] Error in drift detection with wasserstein: Stattest wasserstein isn't applicable to feature of type cat. Available feature types: [<ColumnType.Numerical: 'num'>]
+[2025-07-20 07:55:19] ✅ No drift detected using WASSERSTEIN method
+[2025-07-20 07:55:19] 
+=== FINAL DRIFT DETECTION SUMMARY ===
+[2025-07-20 07:55:19] Overall drift status: ✅ NO DRIFT DETECTED
+[2025-07-20 07:55:19] Methods results: {'psi': False, 'ks': False, 'chisquare': False, 'wasserstein': False}
+[2025-07-20 07:55:19] Drift threshold used: 0.3
+[2025-07-20 07:55:19] Saving drift detection results...
+[2025-07-20 07:55:19] Drift flag saved to: /opt/airflow/data/drift_detected.txt
+[2025-07-20 07:55:19] Status flag saved to: /opt/airflow/data/drift_status.flag
+[2025-07-20 07:55:19] ✅ System stable - no drift detected
+[2025-07-20 07:55:19] Drift detection process completed successfully
+[2025-07-20 08:05:19] ============================================================
+[2025-07-20 08:05:19] STARTING DRIFT DETECTION PROCESS
+[2025-07-20 08:05:19] ============================================================
+[2025-07-20 08:05:19] Loading datasets...
+[2025-07-20 08:05:19] Input directory: /opt/airflow/data
+[2025-07-20 08:05:19] Output files will be saved in: /opt/airflow/data
+[2025-07-20 08:05:19] Reference data shape: (9240, 37)
+[2025-07-20 08:05:19] Current data shape: (5, 37)
+[2025-07-20 08:05:19] Common columns: 37 out of 37 reference columns
+[2025-07-20 08:05:19] Numerical features (7): ['Lead Number', 'Converted', 'TotalVisits', 'Total Time Spent on Website', 'Page Views Per Visit', 'Asymmetrique Activity Score', 'Asymmetrique Profile Score']
+[2025-07-20 08:05:19] Categorical features (30): ['Prospect ID', 'Lead Origin', 'Lead Source', 'Do Not Email', 'Do Not Call', 'Last Activity', 'Country', 'Specialization', 'How did you hear about X Education', 'What is your current occupation', 'What matters most to you in choosing a course', 'Search', 'Magazine', 'Newspaper Article', 'X Education Forums', 'Newspaper', 'Digital Advertisement', 'Through Recommendations', 'Receive More Updates About Our Courses', 'Tags', 'Lead Quality', 'Update me on Supply Chain Content', 'Get updates on DM Content', 'Lead Profile', 'City', 'Asymmetrique Activity Index', 'Asymmetrique Profile Index', 'I agree to pay the amount through cheque', 'A free copy of Mastering The Interview', 'Last Notable Activity']
+[2025-07-20 08:05:19] === BASIC STATISTICS ===
+[2025-07-20 08:05:19] Reference dataset: 9240 rows, 37 columns
+[2025-07-20 08:05:19] Current dataset: 5 rows, 37 columns
+[2025-07-20 08:05:19] Reference missing values: 41039 (12.00%)
+[2025-07-20 08:05:19] Current missing values: 1 (0.54%)
+[2025-07-20 08:05:19] Data type changes detected: ['TotalVisits: float64 -> int64', 'Page Views Per Visit: float64 -> int64', 'Asymmetrique Activity Score: float64 -> int64', 'Asymmetrique Profile Score: float64 -> int64']
+[2025-07-20 08:05:19] 
+=== DRIFT DETECTION RESULTS ===
+[2025-07-20 08:05:19] Running drift detection using psi method...
+[2025-07-20 08:05:23] Error in drift detection with psi: Stattest psi isn't applicable to feature of type text. Available feature types: [<ColumnType.Categorical: 'cat'>, <ColumnType.Numerical: 'num'>]
+[2025-07-20 08:05:23] ✅ No drift detected using PSI method
+[2025-07-20 08:05:23] Running drift detection using ks method...
+[2025-07-20 08:05:23] Error in drift detection with ks: Stattest ks isn't applicable to feature of type cat. Available feature types: [<ColumnType.Numerical: 'num'>]
+[2025-07-20 08:05:23] ✅ No drift detected using KS method
+[2025-07-20 08:05:23] Running drift detection using chisquare method...
+[2025-07-20 08:05:27] Error in drift detection with chisquare: Stattest chisquare isn't applicable to feature of type text. Available feature types: [<ColumnType.Categorical: 'cat'>]
+[2025-07-20 08:05:27] ✅ No drift detected using CHISQUARE method
+[2025-07-20 08:05:27] Running drift detection using wasserstein method...
+[2025-07-20 08:05:27] Error in drift detection with wasserstein: Stattest wasserstein isn't applicable to feature of type cat. Available feature types: [<ColumnType.Numerical: 'num'>]
+[2025-07-20 08:05:27] ✅ No drift detected using WASSERSTEIN method
+[2025-07-20 08:05:27] 
+=== FINAL DRIFT DETECTION SUMMARY ===
+[2025-07-20 08:05:27] Overall drift status: ✅ NO DRIFT DETECTED
+[2025-07-20 08:05:27] Methods results: {'psi': False, 'ks': False, 'chisquare': False, 'wasserstein': False}
+[2025-07-20 08:05:27] Drift threshold used: 0.3
+[2025-07-20 08:05:27] Saving drift detection results...
+[2025-07-20 08:05:27] Drift flag saved to: /opt/airflow/data/drift_detected.txt
+[2025-07-20 08:05:27] Status flag saved to: /opt/airflow/data/drift_status.flag
+[2025-07-20 08:05:27] ✅ System stable - no drift detected
+[2025-07-20 08:05:27] Drift detection process completed successfully

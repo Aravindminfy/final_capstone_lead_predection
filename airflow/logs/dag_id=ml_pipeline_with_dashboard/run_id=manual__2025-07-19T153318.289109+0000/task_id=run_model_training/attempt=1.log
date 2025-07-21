@@ -1,0 +1,50 @@
+[2025-07-19T15:41:41.144+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ml_pipeline_with_dashboard.run_model_training manual__2025-07-19T15:33:18.289109+00:00 [queued]>
+[2025-07-19T15:41:41.383+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ml_pipeline_with_dashboard.run_model_training manual__2025-07-19T15:33:18.289109+00:00 [queued]>
+[2025-07-19T15:41:41.385+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-07-19T15:41:42.212+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): run_model_training> on 2025-07-19 15:33:18.289109+00:00
+[2025-07-19T15:41:42.244+0000] {standard_task_runner.py:60} INFO - Started process 10566 to run task
+[2025-07-19T15:41:42.251+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'ml_pipeline_with_dashboard', 'run_model_training', 'manual__2025-07-19T15:33:18.289109+00:00', '--job-id', '169', '--raw', '--subdir', 'DAGS_FOLDER/main_full_processs.py', '--cfg-path', '/tmp/tmpe22sq47i']
+[2025-07-19T15:41:42.854+0000] {standard_task_runner.py:88} INFO - Job 169: Subtask run_model_training
+[2025-07-19T15:41:50.252+0000] {task_command.py:423} INFO - Running <TaskInstance: ml_pipeline_with_dashboard.run_model_training manual__2025-07-19T15:33:18.289109+00:00 [running]> on host 2b6a031b4c87
+[2025-07-19T15:41:57.509+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='ml_pipeline_with_dashboard' AIRFLOW_CTX_TASK_ID='run_model_training' AIRFLOW_CTX_EXECUTION_DATE='2025-07-19T15:33:18.289109+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-19T15:33:18.289109+00:00'
+[2025-07-19T15:41:57.754+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-07-19T15:41:57.921+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python /opt/***/dags/modal.py']
+[2025-07-19T15:41:58.300+0000] {subprocess.py:86} INFO - Output:
+[2025-07-19T15:42:48.784+0000] {subprocess.py:93} INFO - Dataset shape: (9240, 181)
+[2025-07-19T15:42:48.820+0000] {subprocess.py:93} INFO - Training set: 7392 samples
+[2025-07-19T15:42:48.821+0000] {subprocess.py:93} INFO - Test set: 1848 samples
+[2025-07-19T15:42:48.821+0000] {subprocess.py:93} INFO - Features: 180
+[2025-07-19T15:42:48.822+0000] {subprocess.py:93} INFO - Target distribution: {0: 5679, 1: 3561}
+[2025-07-19T15:42:48.822+0000] {subprocess.py:93} INFO - Starting comprehensive analysis...
+[2025-07-19T15:42:48.822+0000] {subprocess.py:93} INFO - Starting model training with hyperparameter tuning...
+[2025-07-19T15:42:48.823+0000] {subprocess.py:93} INFO - 
+[2025-07-19T15:42:48.823+0000] {subprocess.py:93} INFO - Training Random Forest...
+[2025-07-19T16:01:32.824+0000] {local_task_job_runner.py:211} ERROR - Heartbeat time limit exceeded!
+[2025-07-19T16:03:20.893+0000] {process_utils.py:131} INFO - Sending 15 to group 10566. PIDs of all processes in the group: [10593, 10687, 10688, 10689, 10690, 10698, 10699, 10701, 10702, 10703, 10706, 10566]
+[2025-07-19T16:03:26.156+0000] {process_utils.py:86} INFO - Sending the signal 15 to group 10566
+[2025-07-19T16:04:26.760+0000] {process_utils.py:149} WARNING - process psutil.Process(pid=10688, name='python', status='sleeping', started='15:42:48') did not respond to SIGTERM. Trying SIGKILL
+[2025-07-19T16:06:37.032+0000] {process_utils.py:149} WARNING - process psutil.Process(pid=10703, name='python', status='running', started='15:42:49') did not respond to SIGTERM. Trying SIGKILL
+[2025-07-19T16:06:37.506+0000] {process_utils.py:149} WARNING - process psutil.Process(pid=10706, name='python', status='running', started='15:42:49') did not respond to SIGTERM. Trying SIGKILL
+[2025-07-19T16:06:37.507+0000] {process_utils.py:149} WARNING - process psutil.Process(pid=10566, name='airflow task ru', status='running', started='15:41:41') did not respond to SIGTERM. Trying SIGKILL
+[2025-07-19T16:06:43.657+0000] {process_utils.py:149} WARNING - process psutil.Process(pid=10687, name='python', status='sleeping', started='15:42:48') did not respond to SIGTERM. Trying SIGKILL
+[2025-07-19T16:06:43.964+0000] {process_utils.py:149} WARNING - process psutil.Process(pid=10698, name='python', status='running', started='15:42:48') did not respond to SIGTERM. Trying SIGKILL
+[2025-07-19T16:06:43.965+0000] {process_utils.py:149} WARNING - process psutil.Process(pid=10593, name='python', status='sleeping', started='15:41:57') did not respond to SIGTERM. Trying SIGKILL
+[2025-07-19T16:06:43.966+0000] {process_utils.py:149} WARNING - process psutil.Process(pid=10699, name='python', status='running', started='15:42:48') did not respond to SIGTERM. Trying SIGKILL
+[2025-07-19T16:06:43.966+0000] {process_utils.py:149} WARNING - process psutil.Process(pid=10701, name='python', status='running', started='15:42:48') did not respond to SIGTERM. Trying SIGKILL
+[2025-07-19T16:06:43.966+0000] {process_utils.py:149} WARNING - process psutil.Process(pid=10689, name='python', status='running', started='15:42:48') did not respond to SIGTERM. Trying SIGKILL
+[2025-07-19T16:06:43.967+0000] {process_utils.py:149} WARNING - process psutil.Process(pid=10690, name='python', status='running', started='15:42:48') did not respond to SIGTERM. Trying SIGKILL
+[2025-07-19T16:06:43.967+0000] {process_utils.py:149} WARNING - process psutil.Process(pid=10702, name='python', status='running', started='15:42:48') did not respond to SIGTERM. Trying SIGKILL
+[2025-07-19T16:06:45.264+0000] {process_utils.py:86} INFO - Sending the signal 9 to group 10566
+[2025-07-19T16:07:14.998+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=10566, name='airflow task ru', status='terminated', exitcode=<Negsignal.SIGKILL: -9>, started='15:41:41') (10566) terminated with exit code -9
+[2025-07-19T16:07:45.632+0000] {process_utils.py:160} ERROR - Process psutil.Process(pid=10688, name='python', status='sleeping', started='15:42:48') (10688) could not be killed. Giving up.
+[2025-07-19T16:07:45.905+0000] {process_utils.py:160} ERROR - Process psutil.Process(pid=10703, name='python', status='running', started='15:42:49') (10703) could not be killed. Giving up.
+[2025-07-19T16:07:45.984+0000] {process_utils.py:160} ERROR - Process psutil.Process(pid=10706, name='python', status='running', started='15:42:49') (10706) could not be killed. Giving up.
+[2025-07-19T16:07:46.127+0000] {process_utils.py:160} ERROR - Process psutil.Process(pid=10687, name='python', status='sleeping', started='15:42:48') (10687) could not be killed. Giving up.
+[2025-07-19T16:07:46.409+0000] {process_utils.py:160} ERROR - Process psutil.Process(pid=10698, name='python', status='running', started='15:42:48') (10698) could not be killed. Giving up.
+[2025-07-19T16:07:46.454+0000] {process_utils.py:160} ERROR - Process psutil.Process(pid=10593, name='python', status='sleeping', started='15:41:57') (10593) could not be killed. Giving up.
+[2025-07-19T16:07:46.455+0000] {process_utils.py:160} ERROR - Process psutil.Process(pid=10699, name='python', status='running', started='15:42:48') (10699) could not be killed. Giving up.
+[2025-07-19T16:07:46.617+0000] {process_utils.py:160} ERROR - Process psutil.Process(pid=10701, name='python', status='running', started='15:42:48') (10701) could not be killed. Giving up.
+[2025-07-19T16:07:46.687+0000] {process_utils.py:160} ERROR - Process psutil.Process(pid=10689, name='python', status='running', started='15:42:48') (10689) could not be killed. Giving up.
+[2025-07-19T16:07:46.737+0000] {process_utils.py:160} ERROR - Process psutil.Process(pid=10690, name='python', status='running', started='15:42:48') (10690) could not be killed. Giving up.
+[2025-07-19T16:07:46.738+0000] {process_utils.py:160} ERROR - Process psutil.Process(pid=10702, name='python', status='running', started='15:42:48') (10702) could not be killed. Giving up.
+[2025-07-19T16:07:47.639+0000] {standard_task_runner.py:175} ERROR - Job 169 was killed before it finished (likely due to running out of memory)

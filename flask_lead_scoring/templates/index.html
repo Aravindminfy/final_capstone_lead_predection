@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header">
+                <h1>🎯 Lead Scoring Prediction System</h1>
+                <p class="mb-0">Upload your lead data to get conversion predictions</p>
+            </div>
+            <div class="card-body p-5">
+                <!-- Instructions -->
+                <div class="alert alert-info">
+                    <h5>📋 Instructions:</h5>
+                    <ul class="mb-0">
+                        <li>Upload a CSV or Excel file containing lead data</li>
+                        <li>The system will automatically preprocess your data</li>
+                        <li>Get predictions for lead conversion probability</li>
+                        <li>Download results with prediction columns added</li>
+                    </ul>
+                </div>
+                
+                <!-- Upload Form -->
+                <form action="{{ url_for('predict') }}" method="post" enctype="multipart/form-data">
+                    <div class="mb-4">
+                        <label for="file" class="form-label"><strong>Select File:</strong></label>
+                        <input type="file" class="form-control" id="file" name="file" 
+                               accept=".csv,.xlsx,.xls" required 
+                               style="border-radius: 10px; padding: 15px;">
+                    </div>
+                    
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary btn-lg">
+                            🔮 Generate Predictions
+                        </button>
+                    </div>
+                </form>
+                
+                <!-- Supported Formats -->
+                <div class="mt-4 text-center">
+                    <small class="text-muted">
+                        Supported formats: CSV (.csv), Excel (.xlsx, .xls)
+                    </small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

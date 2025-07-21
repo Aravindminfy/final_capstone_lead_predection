@@ -1,0 +1,69 @@
+[2025-07-19T10:44:33.613+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ml_model_training_pipeline_with_mlflow.train_ml_model_with_mlflow manual__2025-07-19T10:44:20.485144+00:00 [queued]>
+[2025-07-19T10:44:33.625+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ml_model_training_pipeline_with_mlflow.train_ml_model_with_mlflow manual__2025-07-19T10:44:20.485144+00:00 [queued]>
+[2025-07-19T10:44:33.627+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-07-19T10:44:33.647+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): train_ml_model_with_mlflow> on 2025-07-19 10:44:20.485144+00:00
+[2025-07-19T10:44:33.654+0000] {standard_task_runner.py:60} INFO - Started process 12904 to run task
+[2025-07-19T10:44:33.658+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'ml_model_training_pipeline_with_mlflow', 'train_ml_model_with_mlflow', 'manual__2025-07-19T10:44:20.485144+00:00', '--job-id', '98', '--raw', '--subdir', 'DAGS_FOLDER/modal_***.py', '--cfg-path', '/tmp/tmp7gtwqf77']
+[2025-07-19T10:44:33.661+0000] {standard_task_runner.py:88} INFO - Job 98: Subtask train_ml_model_with_mlflow
+[2025-07-19T10:44:33.742+0000] {task_command.py:423} INFO - Running <TaskInstance: ml_model_training_pipeline_with_mlflow.train_ml_model_with_mlflow manual__2025-07-19T10:44:20.485144+00:00 [running]> on host 2b6a031b4c87
+[2025-07-19T10:44:34.064+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='ml_team' AIRFLOW_CTX_DAG_ID='ml_model_training_pipeline_with_mlflow' AIRFLOW_CTX_TASK_ID='train_ml_model_with_mlflow' AIRFLOW_CTX_EXECUTION_DATE='2025-07-19T10:44:20.485144+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-19T10:44:20.485144+00:00'
+[2025-07-19T10:44:44.693+0000] {modal_airflow.py:391} INFO - Data file found: /opt/***/data/preprocessed_data.csv
+[2025-07-19T10:44:45.013+0000] {logging_mixin.py:188} WARNING - 2025/07/19 10:44:45 WARNING mlflow.utils.git_utils: Failed to import Git (the Git executable is probably not on your PATH), so Git SHA is not available. Error: Failed to initialize: Bad git executable.
+The git executable must be specified in one of the following ways:
+    - be included in your $PATH
+    - be set via $GIT_PYTHON_GIT_EXECUTABLE
+    - explicitly set via git.refresh(<full-path-to-git-executable>)
+
+All git commands will error until this is rectified.
+
+This initial message can be silenced or aggravated in the future by setting the
+$GIT_PYTHON_REFRESH environment variable. Use one of the following values:
+    - quiet|q|silence|s|silent|none|n|0: for no message or exception
+    - warn|w|warning|log|l|1: for a warning message (logging level CRITICAL, displayed by default)
+    - error|e|exception|raise|r|2: for a raised exception
+
+Example:
+    export GIT_PYTHON_REFRESH=quiet
+[2025-07-19T10:44:46.677+0000] {modal_airflow.py:544} INFO - Dataset shape: (9240, 181)
+[2025-07-19T10:44:46.678+0000] {modal_airflow.py:545} INFO - Training set: 7392 samples
+[2025-07-19T10:44:46.678+0000] {modal_airflow.py:546} INFO - Test set: 1848 samples
+[2025-07-19T10:44:46.679+0000] {modal_airflow.py:547} INFO - Features: 180
+[2025-07-19T10:44:46.765+0000] {modal_airflow.py:726} INFO - Starting comprehensive analysis...
+[2025-07-19T10:44:46.766+0000] {modal_airflow.py:553} INFO - Starting model training with hyperparameter tuning...
+[2025-07-19T10:44:46.843+0000] {modal_airflow.py:558} INFO - Training Random Forest...
+[2025-07-19T10:45:34.700+0000] {modal_airflow.py:598} INFO - Best CV Score: 0.9767
+[2025-07-19T10:45:34.701+0000] {modal_airflow.py:599} INFO - Training Time: 47.82 seconds
+[2025-07-19T10:45:34.835+0000] {modal_airflow.py:558} INFO - Training Gradient Boosting...
+[2025-07-19T10:46:51.221+0000] {modal_airflow.py:598} INFO - Best CV Score: 0.9796
+[2025-07-19T10:46:51.223+0000] {modal_airflow.py:599} INFO - Training Time: 76.33 seconds
+[2025-07-19T10:46:51.311+0000] {modal_airflow.py:558} INFO - Training Logistic Regression...
+[2025-07-19T10:48:27.264+0000] {modal_airflow.py:598} INFO - Best CV Score: 0.9744
+[2025-07-19T10:48:27.265+0000] {modal_airflow.py:599} INFO - Training Time: 95.94 seconds
+[2025-07-19T10:48:27.268+0000] {modal_airflow.py:602} INFO - All models trained successfully!
+[2025-07-19T10:48:27.269+0000] {modal_airflow.py:610} INFO - Evaluating models on test set...
+[2025-07-19T10:48:27.994+0000] {modal_airflow.py:657} INFO - Model Performance Comparison:
+[2025-07-19T10:48:28.018+0000] {modal_airflow.py:658} INFO -                      Accuracy  Precision  Recall  F1-Score  ROC-AUC  CV_Score  Training_Time
+Gradient Boosting      0.9318     0.9014  0.9242    0.9126   0.9779    0.9796        76.3297
+Random Forest          0.9167     0.9189  0.8596    0.8882   0.9743    0.9767        47.8200
+Logistic Regression    0.9232     0.9025  0.8975    0.9000   0.9719    0.9744        95.9354
+[2025-07-19T10:48:28.018+0000] {modal_airflow.py:659} INFO - Best Model: Gradient Boosting
+[2025-07-19T10:48:28.019+0000] {modal_airflow.py:660} INFO - Best ROC-AUC Score: 0.9779
+[2025-07-19T10:49:21.034+0000] {logging_mixin.py:188} WARNING - 2025/07/19 10:49:21 WARNING mlflow.models.model: Model logged without a signature and input example. Please set `input_example` parameter when logging the model to auto infer the model signature.
+[2025-07-19T10:49:21.270+0000] {logging_mixin.py:188} WARNING - Successfully registered model 'SalesConversion_Gradient_Boosting'.
+[2025-07-19T10:49:21.281+0000] {logging_mixin.py:188} WARNING - Created version '1' of model 'SalesConversion_Gradient_Boosting'.
+[2025-07-19T10:49:21.915+0000] {modal_airflow.py:717} INFO - Best model saved to: /opt/***/model/best_model_gradient_boosting.pkl
+[2025-07-19T10:49:21.917+0000] {modal_airflow.py:718} INFO - Model: Gradient Boosting
+[2025-07-19T10:49:21.918+0000] {modal_airflow.py:719} INFO - ROC-AUC Score: 0.9779
+[2025-07-19T10:49:21.945+0000] {modal_airflow.py:762} INFO - Analysis complete!
+[2025-07-19T10:49:21.946+0000] {modal_airflow.py:763} INFO - Model saved to: /opt/***/model/best_model_gradient_boosting.pkl
+[2025-07-19T10:49:21.947+0000] {modal_airflow.py:764} INFO - MLflow tracking completed. Check MLflow UI at file:///opt/***/mlflow
+[2025-07-19T10:49:21.948+0000] {modal_airflow.py:769} INFO - Model file verified: 535383 bytes
+[2025-07-19T10:49:21.948+0000] {python.py:201} INFO - Done. Returned value was: {'results_df':                      Accuracy  Precision  ...  CV_Score  Training_Time
+Gradient Boosting    0.931818   0.901370  ...  0.979591      76.329747
+Random Forest        0.916667   0.918919  ...  0.976750      47.819985
+Logistic Regression  0.923160   0.902542  ...  0.974388      95.935403
+
+[3 rows x 7 columns], 'model_path': '/opt/***/model/best_model_gradient_boosting.pkl'}
+[2025-07-19T10:49:26.694+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=ml_model_training_pipeline_with_mlflow, task_id=train_ml_model_with_mlflow, execution_date=20250719T104420, start_date=20250719T104433, end_date=20250719T104926
+[2025-07-19T10:49:26.788+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-07-19T10:49:26.820+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

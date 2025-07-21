@@ -1,0 +1,1 @@
+[2025-07-19T12:52:09.806+0000] {scheduler_job_runner.py:781} ERROR - Executor reports task instance <TaskInstance: ml_pipeline_with_dashboard.run_eda manual__2025-07-19T12:50:06.364140+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?

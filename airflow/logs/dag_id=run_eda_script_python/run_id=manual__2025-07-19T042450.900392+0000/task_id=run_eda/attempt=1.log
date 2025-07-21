@@ -1,0 +1,34 @@
+[2025-07-19T04:24:52.307+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: run_eda_script_python.run_eda manual__2025-07-19T04:24:50.900392+00:00 [queued]>
+[2025-07-19T04:24:52.315+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: run_eda_script_python.run_eda manual__2025-07-19T04:24:50.900392+00:00 [queued]>
+[2025-07-19T04:24:52.315+0000] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2025-07-19T04:24:52.316+0000] {taskinstance.py:1289} INFO - Starting attempt 1 of 1
+[2025-07-19T04:24:52.316+0000] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2025-07-19T04:24:52.329+0000] {taskinstance.py:1309} INFO - Executing <Task(PythonOperator): run_eda> on 2025-07-19 04:24:50.900392+00:00
+[2025-07-19T04:24:52.334+0000] {standard_task_runner.py:55} INFO - Started process 604 to run task
+[2025-07-19T04:24:52.337+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'run_eda_script_python', 'run_eda', 'manual__2025-07-19T04:24:50.900392+00:00', '--job-id', '9', '--raw', '--subdir', 'DAGS_FOLDER/example.py', '--cfg-path', '/tmp/tmpzi4_bo80']
+[2025-07-19T04:24:52.341+0000] {standard_task_runner.py:83} INFO - Job 9: Subtask run_eda
+[2025-07-19T04:24:52.421+0000] {task_command.py:389} INFO - Running <TaskInstance: run_eda_script_python.run_eda manual__2025-07-19T04:24:50.900392+00:00 [running]> on host 398705dcf644
+[2025-07-19T04:24:52.478+0000] {taskinstance.py:1516} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=run_eda_script_python
+AIRFLOW_CTX_TASK_ID=run_eda
+AIRFLOW_CTX_EXECUTION_DATE=2025-07-19T04:24:50.900392+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2025-07-19T04:24:50.900392+00:00
+[2025-07-19T04:24:57.433+0000] {taskinstance.py:1776} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/example.py", line 7, in run_eda_script
+    subprocess.run(["python", "/opt/airflow/dags/preprocess.py"], check=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', '/opt/airflow/dags/preprocess.py']' returned non-zero exit status 1.
+[2025-07-19T04:24:57.474+0000] {taskinstance.py:1327} INFO - Marking task as FAILED. dag_id=run_eda_script_python, task_id=run_eda, execution_date=20250719T042450, start_date=20250719T042452, end_date=20250719T042457
+[2025-07-19T04:24:57.516+0000] {standard_task_runner.py:100} ERROR - Failed to execute job 9 for task run_eda (Command '['python', '/opt/airflow/dags/preprocess.py']' returned non-zero exit status 1.; 604)
+[2025-07-19T04:24:57.568+0000] {local_task_job.py:212} INFO - Task exited with return code 1
+[2025-07-19T04:24:57.602+0000] {taskinstance.py:2596} INFO - 0 downstream tasks scheduled from follow-on schedule check

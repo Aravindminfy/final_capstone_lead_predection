@@ -1,0 +1,16 @@
+[2025-07-20T07:55:21.008+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ml_pipeline_end_to_end.check_drift_branch manual__2025-07-20T07:55:01.828880+00:00 [queued]>
+[2025-07-20T07:55:21.018+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ml_pipeline_end_to_end.check_drift_branch manual__2025-07-20T07:55:01.828880+00:00 [queued]>
+[2025-07-20T07:55:21.019+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-07-20T07:55:21.034+0000] {taskinstance.py:2191} INFO - Executing <Task(BranchPythonOperator): check_drift_branch> on 2025-07-20 07:55:01.828880+00:00
+[2025-07-20T07:55:21.038+0000] {standard_task_runner.py:60} INFO - Started process 11183 to run task
+[2025-07-20T07:55:21.041+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'ml_pipeline_end_to_end', 'check_drift_branch', 'manual__2025-07-20T07:55:01.828880+00:00', '--job-id', '227', '--raw', '--subdir', 'DAGS_FOLDER/conplete_mlops.py', '--cfg-path', '/tmp/tmpq7aikri7']
+[2025-07-20T07:55:21.043+0000] {standard_task_runner.py:88} INFO - Job 227: Subtask check_drift_branch
+[2025-07-20T07:55:21.086+0000] {task_command.py:423} INFO - Running <TaskInstance: ml_pipeline_end_to_end.check_drift_branch manual__2025-07-20T07:55:01.828880+00:00 [running]> on host 2b6a031b4c87
+[2025-07-20T07:55:21.163+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='ml_pipeline_end_to_end' AIRFLOW_CTX_TASK_ID='check_drift_branch' AIRFLOW_CTX_EXECUTION_DATE='2025-07-20T07:55:01.828880+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-20T07:55:01.828880+00:00'
+[2025-07-20T07:55:21.167+0000] {python.py:201} INFO - Done. Returned value was: no_drift_task
+[2025-07-20T07:55:21.168+0000] {branch.py:35} INFO - Branch into no_drift_task
+[2025-07-20T07:55:21.168+0000] {skipmixin.py:178} INFO - Following branch no_drift_task
+[2025-07-20T07:55:21.179+0000] {skipmixin.py:244} INFO - Skipping tasks [('run_preprocess', -1)]
+[2025-07-20T07:55:21.217+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=ml_pipeline_end_to_end, task_id=check_drift_branch, execution_date=20250720T075501, start_date=20250720T075521, end_date=20250720T075521
+[2025-07-20T07:55:21.254+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-07-20T07:55:21.289+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,38 @@
+[2025-07-18T22:00:26.614+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: run_eda_script_python.run_eda manual__2025-07-18T22:00:25.026304+00:00 [queued]>
+[2025-07-18T22:00:26.624+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: run_eda_script_python.run_eda manual__2025-07-18T22:00:25.026304+00:00 [queued]>
+[2025-07-18T22:00:26.624+0000] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2025-07-18T22:00:26.625+0000] {taskinstance.py:1289} INFO - Starting attempt 1 of 2
+[2025-07-18T22:00:26.626+0000] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2025-07-18T22:00:26.638+0000] {taskinstance.py:1309} INFO - Executing <Task(PythonOperator): run_eda> on 2025-07-18 22:00:25.026304+00:00
+[2025-07-18T22:00:26.642+0000] {standard_task_runner.py:55} INFO - Started process 619 to run task
+[2025-07-18T22:00:26.645+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'run_eda_script_python', 'run_eda', 'manual__2025-07-18T22:00:25.026304+00:00', '--job-id', '11', '--raw', '--subdir', 'DAGS_FOLDER/demo.py', '--cfg-path', '/tmp/tmp4bgaccff']
+[2025-07-18T22:00:26.685+0000] {standard_task_runner.py:83} INFO - Job 11: Subtask run_eda
+[2025-07-18T22:00:26.759+0000] {task_command.py:389} INFO - Running <TaskInstance: run_eda_script_python.run_eda manual__2025-07-18T22:00:25.026304+00:00 [running]> on host 9609dee7e891
+[2025-07-18T22:00:26.834+0000] {taskinstance.py:1516} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=run_eda_script_python
+AIRFLOW_CTX_TASK_ID=run_eda
+AIRFLOW_CTX_EXECUTION_DATE=2025-07-18T22:00:25.026304+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2025-07-18T22:00:25.026304+00:00
+[2025-07-18T22:00:27.853+0000] {logging_mixin.py:137} INFO - ✅ All libraries imported successfully!
+[2025-07-18T22:00:27.854+0000] {logging_mixin.py:137} INFO - Input file: C:\Users\Minfy.DESKTOP-3E50D5N\Desktop\final_capstone\raw_data\Lead Scoring.csv
+[2025-07-18T22:00:27.854+0000] {logging_mixin.py:137} INFO - Output folder: C:\Users\Minfy.DESKTOP-3E50D5N\Desktop\final_capstone\preprocess\preprocessed_output
+[2025-07-18T22:00:27.854+0000] {logging_mixin.py:137} INFO - ✅ Using existing output directory!
+[2025-07-18T22:00:27.855+0000] {taskinstance.py:1776} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/demo.py", line 17, in run_eda_script
+    exec(f.read())
+  File "<string>", line 44, in <module>
+  File "<string>", line 31, in setup_logging
+NameError: name 'logging' is not defined
+[2025-07-18T22:00:27.864+0000] {taskinstance.py:1327} INFO - Marking task as UP_FOR_RETRY. dag_id=run_eda_script_python, task_id=run_eda, execution_date=20250718T220025, start_date=20250718T220026, end_date=20250718T220027
+[2025-07-18T22:00:27.876+0000] {standard_task_runner.py:100} ERROR - Failed to execute job 11 for task run_eda (name 'logging' is not defined; 619)
+[2025-07-18T22:00:27.902+0000] {local_task_job.py:212} INFO - Task exited with return code 1
+[2025-07-18T22:00:27.917+0000] {taskinstance.py:2596} INFO - 0 downstream tasks scheduled from follow-on schedule check

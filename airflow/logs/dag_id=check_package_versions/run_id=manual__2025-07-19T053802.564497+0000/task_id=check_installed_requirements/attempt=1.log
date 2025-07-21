@@ -1,0 +1,27 @@
+[2025-07-19T05:38:09.273+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: check_package_versions.check_installed_requirements manual__2025-07-19T05:38:02.564497+00:00 [queued]>
+[2025-07-19T05:38:09.640+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: check_package_versions.check_installed_requirements manual__2025-07-19T05:38:02.564497+00:00 [queued]>
+[2025-07-19T05:38:09.641+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-07-19T05:38:09.725+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): check_installed_requirements> on 2025-07-19 05:38:02.564497+00:00
+[2025-07-19T05:38:09.734+0000] {standard_task_runner.py:60} INFO - Started process 509 to run task
+[2025-07-19T05:38:09.745+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'check_package_versions', 'check_installed_requirements', 'manual__2025-07-19T05:38:02.564497+00:00', '--job-id', '34', '--raw', '--subdir', 'DAGS_FOLDER/check_version.py', '--cfg-path', '/tmp/tmpj9n0c8v5']
+[2025-07-19T05:38:09.753+0000] {standard_task_runner.py:88} INFO - Job 34: Subtask check_installed_requirements
+[2025-07-19T05:38:10.078+0000] {task_command.py:423} INFO - Running <TaskInstance: check_package_versions.check_installed_requirements manual__2025-07-19T05:38:02.564497+00:00 [running]> on host 2b6a031b4c87
+[2025-07-19T05:38:10.189+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='check_package_versions' AIRFLOW_CTX_TASK_ID='check_installed_requirements' AIRFLOW_CTX_EXECUTION_DATE='2025-07-19T05:38:02.564497+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-19T05:38:02.564497+00:00'
+[2025-07-19T05:38:10.192+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-07-19T05:38:10.194+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'pip check && pip freeze | grep -E "pandas|numpy|matplotlib|seaborn|plotly|missingno|scipy|scikit-learn|shap|xgboost|lightgbm|catboost|mlflow|ipython|notebook|psycopg2|sqlalchemy|streamlit"']
+[2025-07-19T05:38:10.226+0000] {subprocess.py:86} INFO - Output:
+[2025-07-19T05:38:40.129+0000] {subprocess.py:93} INFO - No broken requirements found.
+[2025-07-19T05:38:41.586+0000] {subprocess.py:93} INFO - marshmallow-sqlalchemy==0.26.1
+[2025-07-19T05:38:41.587+0000] {subprocess.py:93} INFO - numpy==1.24.4
+[2025-07-19T05:38:41.588+0000] {subprocess.py:93} INFO - pandas==2.0.3
+[2025-07-19T05:38:41.588+0000] {subprocess.py:93} INFO - pandas-gbq==0.20.0
+[2025-07-19T05:38:41.589+0000] {subprocess.py:93} INFO - psycopg2-binary==2.9.9
+[2025-07-19T05:38:41.590+0000] {subprocess.py:93} INFO - shapely==2.0.2
+[2025-07-19T05:38:41.591+0000] {subprocess.py:93} INFO - snowflake-sqlalchemy==1.5.1
+[2025-07-19T05:38:41.591+0000] {subprocess.py:93} INFO - sqlalchemy-bigquery==1.9.0
+[2025-07-19T05:38:41.592+0000] {subprocess.py:93} INFO - sqlalchemy-redshift==0.8.14
+[2025-07-19T05:38:41.592+0000] {subprocess.py:93} INFO - sqlalchemy-spanner==1.6.2
+[2025-07-19T05:38:41.619+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-07-19T05:38:41.662+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=check_package_versions, task_id=check_installed_requirements, execution_date=20250719T053802, start_date=20250719T053809, end_date=20250719T053841
+[2025-07-19T05:38:41.725+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-07-19T05:38:41.745+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

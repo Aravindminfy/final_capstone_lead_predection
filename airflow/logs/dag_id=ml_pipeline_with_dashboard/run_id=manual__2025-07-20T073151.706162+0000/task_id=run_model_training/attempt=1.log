@@ -1,0 +1,38 @@
+[2025-07-20T07:31:59.681+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ml_pipeline_with_dashboard.run_model_training manual__2025-07-20T07:31:51.706162+00:00 [queued]>
+[2025-07-20T07:31:59.691+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ml_pipeline_with_dashboard.run_model_training manual__2025-07-20T07:31:51.706162+00:00 [queued]>
+[2025-07-20T07:31:59.692+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-07-20T07:31:59.708+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): run_model_training> on 2025-07-20 07:31:51.706162+00:00
+[2025-07-20T07:31:59.712+0000] {standard_task_runner.py:60} INFO - Started process 7587 to run task
+[2025-07-20T07:31:59.715+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'ml_pipeline_with_dashboard', 'run_model_training', 'manual__2025-07-20T07:31:51.706162+00:00', '--job-id', '201', '--raw', '--subdir', 'DAGS_FOLDER/main_full_processs.py', '--cfg-path', '/tmp/tmp3i3393pj']
+[2025-07-20T07:31:59.717+0000] {standard_task_runner.py:88} INFO - Job 201: Subtask run_model_training
+[2025-07-20T07:31:59.765+0000] {task_command.py:423} INFO - Running <TaskInstance: ml_pipeline_with_dashboard.run_model_training manual__2025-07-20T07:31:51.706162+00:00 [running]> on host 2b6a031b4c87
+[2025-07-20T07:31:59.843+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='ml_pipeline_with_dashboard' AIRFLOW_CTX_TASK_ID='run_model_training' AIRFLOW_CTX_EXECUTION_DATE='2025-07-20T07:31:51.706162+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-20T07:31:51.706162+00:00'
+[2025-07-20T07:31:59.844+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-07-20T07:31:59.845+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python /opt/***/dags/modal.py']
+[2025-07-20T07:31:59.853+0000] {subprocess.py:86} INFO - Output:
+[2025-07-20T07:32:01.643+0000] {subprocess.py:93} INFO - Dataset shape: (9240, 181)
+[2025-07-20T07:32:01.644+0000] {subprocess.py:93} INFO - Training set: 7392 samples
+[2025-07-20T07:32:01.644+0000] {subprocess.py:93} INFO - Test set: 1848 samples
+[2025-07-20T07:32:01.645+0000] {subprocess.py:93} INFO - Features: 180
+[2025-07-20T07:32:01.645+0000] {subprocess.py:93} INFO - Target distribution: {0: 5679, 1: 3561}
+[2025-07-20T07:32:01.646+0000] {subprocess.py:93} INFO - Starting comprehensive analysis...
+[2025-07-20T07:32:01.646+0000] {subprocess.py:93} INFO - Starting model training with hyperparameter tuning...
+[2025-07-20T07:32:01.647+0000] {subprocess.py:93} INFO - 
+[2025-07-20T07:32:01.647+0000] {subprocess.py:93} INFO - Training Random Forest...
+[2025-07-20T07:34:48.588+0000] {local_task_job_runner.py:302} WARNING - State of this instance has been externally set to success. Terminating instance.
+[2025-07-20T07:34:48.950+0000] {process_utils.py:131} INFO - Sending 15 to group 7587. PIDs of all processes in the group: [7588, 7605, 7606, 7607, 7608, 7609, 7610, 7611, 7612, 7613, 7614, 7587]
+[2025-07-20T07:34:48.952+0000] {process_utils.py:86} INFO - Sending the signal 15 to group 7587
+[2025-07-20T07:34:48.954+0000] {taskinstance.py:2450} ERROR - Received SIGTERM. Terminating subprocesses.
+[2025-07-20T07:34:49.046+0000] {subprocess.py:104} INFO - Sending SIGTERM signal to process group
+[2025-07-20T07:34:50.583+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=7609, status='terminated', started='07:32:01') (7609) terminated with exit code None
+[2025-07-20T07:34:50.645+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=7587, status='terminated', exitcode=0, started='07:31:59') (7587) terminated with exit code 0
+[2025-07-20T07:34:50.646+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=7605, status='terminated', started='07:32:01') (7605) terminated with exit code None
+[2025-07-20T07:34:50.647+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=7612, status='terminated', started='07:32:01') (7612) terminated with exit code None
+[2025-07-20T07:34:50.648+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=7607, status='terminated', started='07:32:01') (7607) terminated with exit code None
+[2025-07-20T07:34:50.649+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=7613, status='terminated', started='07:32:01') (7613) terminated with exit code None
+[2025-07-20T07:34:50.649+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=7608, status='terminated', started='07:32:01') (7608) terminated with exit code None
+[2025-07-20T07:34:50.650+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=7614, status='terminated', started='07:32:01') (7614) terminated with exit code None
+[2025-07-20T07:34:50.651+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=7610, status='terminated', started='07:32:01') (7610) terminated with exit code None
+[2025-07-20T07:34:50.652+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=7611, status='terminated', started='07:32:01') (7611) terminated with exit code None
+[2025-07-20T07:34:50.652+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=7606, status='terminated', started='07:32:01') (7606) terminated with exit code None
+[2025-07-20T07:34:50.653+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=7588, status='terminated', started='07:31:59') (7588) terminated with exit code None
