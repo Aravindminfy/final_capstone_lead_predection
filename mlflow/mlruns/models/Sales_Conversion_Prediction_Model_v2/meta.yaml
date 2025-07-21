@@ -3,5 +3,9 @@ creation_timestamp: 1752819676826
 deployment_job_id: null
 deployment_job_state: null
 description: ''
+<<<<<<< HEAD
 last_updated_timestamp: 1752826405957
+=======
+last_updated_timestamp: 1752819680349
+>>>>>>> 5c6ff1f (18-7-2025 commit)
 name: Sales_Conversion_Prediction_Model_v2
