@@ -6,7 +6,9 @@
 
 # s3 for data drift detection
 <img width="1914" height="958" alt="image" src="https://github.com/user-attachments/assets/8a606f72-9b9a-40b5-a852-53ba1e303cb8" />
+
 # Airflow dag
 <img width="1919" height="945" alt="image" src="https://github.com/user-attachments/assets/6ac191c2-3f9c-4c4f-9ef4-8cf10903b143" />
+
 # Xcom for retrain logic
 <img width="1913" height="1032" alt="image" src="https://github.com/user-attachments/assets/d7e5eda7-39db-4c53-816e-a7dbac54dad6" />
