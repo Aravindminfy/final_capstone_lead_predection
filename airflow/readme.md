@@ -1,3 +1,6 @@
+# sample output
+<img width="1919" height="986" alt="Screenshot 2025-07-20 133621" src="https://github.com/user-attachments/assets/3c1831fa-ec4d-4353-98db-31b4aebcd5b0" />
+
 # Airflow Folder — Detailed Documentation  
 **Path:** `final_capstone/airflow`  
 **Purpose:** Orchestrates the end-to-end MLOps workflow for sales conversion prediction using Apache Airflow, including data extraction, preprocessing, EDA, model training, drift detection, and dashboarding.
@@ -177,5 +180,4 @@ The Airflow folder provides a **complete, automated, and production-ready MLOps 
 
 ---
 
-# sample output
-<img width="1919" height="986" alt="Screenshot 2025-07-20 133621" src="https://github.com/user-attachments/assets/3c1831fa-ec4d-4353-98db-31b4aebcd5b0" />
+
