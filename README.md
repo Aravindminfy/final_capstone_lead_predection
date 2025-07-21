@@ -1,6 +1,6 @@
 ![final_porject_articture](https://github.com/user-attachments/assets/14888ccf-9e31-453a-852d-04f18108a28e)
 
-# Production ML System: Horizontal Data Pipeline with Automated Drift Detection & Manual Retraining Approval
+# Production ML System:  Data Pipeline with Automated Drift Detection & Manual Retraining Approval
 
 ## Architecture Overview
 
