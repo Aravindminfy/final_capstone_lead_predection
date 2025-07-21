@@ -4,6 +4,11 @@
 
 # sagemaker modal registory
 <img width="1737" height="846" alt="image" src="https://github.com/user-attachments/assets/d3efac2a-368c-4f9c-863d-f226404f880a" />
+
+# sagemaker model registory multiple version 
+<img width="1123" height="577" alt="image" src="https://github.com/user-attachments/assets/d3292d88-55ad-41bf-97c3-b51ccfc6793c" />
+
+
 # sagemaker pipeline
 <img width="1738" height="838" alt="image" src="https://github.com/user-attachments/assets/2548890a-e77d-4978-9c07-43b73cc74584" />
 
