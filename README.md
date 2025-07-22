@@ -1,4 +1,5 @@
-![final_porject_articture](https://github.com/user-attachments/assets/14888ccf-9e31-453a-852d-04f18108a28e)
+<img width="779" height="585" alt="local" src="https://github.com/user-attachments/assets/453fbb1a-a948-49d6-a6f9-614affb49288" />
+
 
 # Production ML System:  Data Pipeline with Automated Drift Detection & Manual Retraining Approval
 
