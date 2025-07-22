@@ -167,12 +167,4 @@ Visit the Airflow UI at ```http://localhost:8080``` Log in and enable your DAGs 
 Note: Set Airflow variables and connections for AWS S3, PostgreSQL, or MLflow inside the Airflow UI under Admin > Variables/Connections.
 
 
-## License
-This project is licensed under the MIT License.
-```
-
-This file is now complete, consistent, and ready for use in a professional GitHub repository.
-
-Let me know if you want a Dockerized version or deployment script for EC2/S3 as part of this setup.
-```
 
